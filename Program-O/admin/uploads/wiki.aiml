@@ -1,0 +1,10 @@
+<aiml version="1.0">
+  <category>
+    <pattern>WIKI *</pattern>
+    <template>
+      <wiki>
+        <star/>
+      </wiki>
+    </template>
+  </category>
+</aiml>

@@ -1,0 +1,18 @@
+Array
+(
+    [bot_id] => 1
+    [bot_name] => Miku
+    [bot_desc] => Es una maid loli que quiere a su creador por encima de todo. Tiene mucho aprecio por los administradores y le gusta hablar con la gente, pero se enfada si hablas sobre su edad o su apariencia.
+    [bot_active] => 1
+    [bot_parent_id] => 1
+    [format] => json
+    [save_state] => session
+    [conversation_lines] => 1
+    [remember_up_to] => 10
+    [debugemail] => manel.andreu.code@gmail.com
+    [debugshow] => 4
+    [debugmode] => 1
+    [error_response] => No AIML category found. This is a Default Response.
+    [default_aiml_pattern] => RANDOM PICKUP LINE
+    [unknown_user] => Seeker
+)

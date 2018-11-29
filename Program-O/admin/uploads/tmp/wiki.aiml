@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" xmlns="http://www.alicebot.org/TR/2001/WD-aiml">
+  <category>
+    <pattern>WIKI *</pattern>
+    <template>
+      <wiki>
+        <star/>
+      </wiki>
+    </template>
+  </category>
+</aiml>

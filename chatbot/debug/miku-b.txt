@@ -1,0 +1,2306 @@
+29-11-2018 17:08:16.21789[0][4] - Elapsed time: 11.068 milliseconds
+[conversation_start.php][Called outside of function][56]
+Conversation starting. Current system specs:
+  Program O version:            2.6.11
+  Server Software:              Apache
+  PHP Version:                  7.0.32
+  OS:                           Linux
+  OS Version:                   #1 SMP Thu Feb 8 23:35:45 MST 2018
+  MySQL Version:                5.6.41-84.1
+  Multi-byte functions enabled: true 
+-----------------------
+29-11-2018 17:08:16.22572[4][4] - Elapsed time: 7.828 milliseconds
+[load_aimlfunctions.php][Called outside of function][16]
+AIML function include files loaded 
+-----------------------
+29-11-2018 17:08:16.22811[4][4] - Elapsed time: 2.393 milliseconds
+[load_convofunctions.php][Called outside of function][16]
+Convofunction include files loaded 
+-----------------------
+29-11-2018 17:08:16.22859[4][4] - Elapsed time: 0.478 milliseconds
+[load_userfunctions.php][Called outside of function][14]
+userfunctions include files loaded 
+-----------------------
+29-11-2018 17:08:16.23045[4][4] - Elapsed time: 1.863 milliseconds
+[load_addons.php][Called outside of function][19]
+Loading addons 
+-----------------------
+29-11-2018 17:08:16.23049[4][4] - Elapsed time: 0.036 milliseconds
+[conversation_start.php][Called outside of function][69]
+Loaded all Includes 
+-----------------------
+29-11-2018 17:08:16.23072[0][4] - Elapsed time: 0.236 milliseconds
+[conversation_start.php][Called outside of function][125]
+Debug level: 4
+session ID = miku-b 
+-----------------------
+29-11-2018 17:08:16.23075[4][4] - Elapsed time: 0.023 milliseconds
+[conversation_start.php][Called outside of function][128]
+Conversation continuing. User said 'Wiki teoría de las cuerdas'. 
+-----------------------
+29-11-2018 17:08:16.23083[4][4] - Elapsed time: 0.085 milliseconds
+[intialise_conversation.php][read_from_session][155]
+Reading from session 
+-----------------------
+29-11-2018 17:08:16.23085[4][4] - Elapsed time: 0.021 milliseconds
+[intialise_conversation.php][load_default_bot_values][110]
+Loading db bot personality properties 
+-----------------------
+29-11-2018 17:08:16.23088[3][4] - Elapsed time: 0.031 milliseconds
+[intialise_conversation.php][load_default_bot_values][118]
+load db bot personality values SQL: SELECT * FROM `orxataso_mikubot`.`botpersonality` WHERE `bot_id` = 1; 
+-----------------------
+29-11-2018 17:08:16.23163[4][4] - Elapsed time: 0.752 milliseconds
+[intialise_conversation.php][check_set_convo_id][643]
+Obtaining the convo id from form vars. Value: miku-b 
+-----------------------
+29-11-2018 17:08:16.23167[2][4] - Elapsed time: 0.034 milliseconds
+[intialise_conversation.php][check_set_bot][581]
+Checking and/or setting the current bot. 
+-----------------------
+29-11-2018 17:08:16.23169[3][4] - Elapsed time: 0.026 milliseconds
+[intialise_conversation.php][check_set_bot][599]
+Making sure the bot exists. SQL = SELECT * FROM `orxataso_mikubot`.`bots` WHERE bot_id = 1 AND `bot_active` = 1; 
+-----------------------
+29-11-2018 17:08:16.23211[2][4] - Elapsed time: 0.417 milliseconds
+[intialise_conversation.php][check_set_bot][616]
+BOT ID: 1 
+-----------------------
+29-11-2018 17:08:16.23214[2][4] - Elapsed time: 0.032 milliseconds
+[intialise_conversation.php][check_set_user][672]
+Checking and setting the user info, as needed. 
+-----------------------
+29-11-2018 17:08:16.23249[3][4] - Elapsed time: 0.347 milliseconds
+[intialise_conversation.php][check_set_user][705]
+Loading client properties from the DB - sql:
+SELECT `name`, `value` FROM `orxataso_mikubot`.`client_properties` WHERE `user_id` = 2 AND `bot_id` = 1; 
+-----------------------
+29-11-2018 17:08:16.23285[2][4] - Elapsed time: 0.357 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+29-11-2018 17:08:16.23300[2][4] - Elapsed time: 0.157 milliseconds
+[spell_checker.php][spell_check][60]
+Preforming a spel chek on Wiki. 
+-----------------------
+29-11-2018 17:08:16.23305[2][4] - Elapsed time: 0.045 milliseconds
+[spell_checker.php][load_spelling_list][117]
+Loading the spellcheck list from the DB. 
+-----------------------
+29-11-2018 17:08:16.23426[2][4] - Elapsed time: 1.208 milliseconds
+[spell_checker.php][spell_check][60]
+Preforming a spel chek on  . 
+-----------------------
+29-11-2018 17:08:16.23432[2][4] - Elapsed time: 0.059 milliseconds
+[spell_checker.php][spell_check][60]
+Preforming a spel chek on teoría. 
+-----------------------
+29-11-2018 17:08:16.23436[2][4] - Elapsed time: 0.048 milliseconds
+[spell_checker.php][spell_check][60]
+Preforming a spel chek on  . 
+-----------------------
+29-11-2018 17:08:16.23444[2][4] - Elapsed time: 0.079 milliseconds
+[spell_checker.php][spell_check][60]
+Preforming a spel chek on de. 
+-----------------------
+29-11-2018 17:08:16.23449[2][4] - Elapsed time: 0.050 milliseconds
+[spell_checker.php][spell_check][60]
+Preforming a spel chek on  . 
+-----------------------
+29-11-2018 17:08:16.23453[2][4] - Elapsed time: 0.036 milliseconds
+[spell_checker.php][spell_check][60]
+Preforming a spel chek on las. 
+-----------------------
+29-11-2018 17:08:16.23457[2][4] - Elapsed time: 0.044 milliseconds
+[spell_checker.php][spell_check][60]
+Preforming a spel chek on  . 
+-----------------------
+29-11-2018 17:08:16.23461[2][4] - Elapsed time: 0.036 milliseconds
+[spell_checker.php][spell_check][60]
+Preforming a spel chek on cuerdas. 
+-----------------------
+29-11-2018 17:08:16.23466[4][4] - Elapsed time: 0.053 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'Wiki teoría de las cuerdas' 
+-----------------------
+29-11-2018 17:08:16.23493[4][4] - Elapsed time: 0.272 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKI TEORÍA DE LAS CUERDAS' 
+-----------------------
+29-11-2018 17:08:16.23498[1][4] - Elapsed time: 0.043 milliseconds
+[conversation_start.php][Called outside of function][202]
+PHP ERROR [Notice] -Undefined variable: username in /home2/orxataso/public_html/bot/Program-O/chatbot/conversation_start.php on Line 202 
+-----------------------
+29-11-2018 17:08:16.23509[1][4] - Elapsed time: 0.112 milliseconds
+[conversation_start.php][Called outside of function][203]
+PHP ERROR [Notice] -Undefined variable: isAdmin in /home2/orxataso/public_html/bot/Program-O/chatbot/conversation_start.php on Line 203 
+-----------------------
+29-11-2018 17:08:16.23516[1][4] - Elapsed time: 0.066 milliseconds
+[conversation_start.php][Called outside of function][204]
+PHP ERROR [Notice] -Undefined variable: isCreator in /home2/orxataso/public_html/bot/Program-O/chatbot/conversation_start.php on Line 204 
+-----------------------
+29-11-2018 17:08:16.23521[2][4] - Elapsed time: 0.055 milliseconds
+[conversation_start.php][Called outside of function][207]
+Details:
+User say: WIKI TEORÍA DE LAS CUERDAS
+Convo id: miku-b
+Bot id: 1
+Format: json 
+-----------------------
+29-11-2018 17:08:16.23523[4][4] - Elapsed time: 0.024 milliseconds
+[intialise_conversation.php][check_set_format][752]
+Using format: json 
+-----------------------
+29-11-2018 17:08:16.23525[2][4] - Elapsed time: 0.015 milliseconds
+[intialise_conversation.php][load_that][769]
+Loading the THAT array. 
+-----------------------
+29-11-2018 17:08:16.23527[3][4] - Elapsed time: 0.021 milliseconds
+[intialise_conversation.php][load_that][784]
+Getting conversation log entries for the current user. SQL:
+SELECT `input`, `response` FROM `orxataso_mikubot`.`conversation_log` WHERE `user_id` = 2 AND `bot_id` = 1 ORDER BY `id` DESC limit 10; 
+-----------------------
+29-11-2018 17:08:16.23605[1][4] - Elapsed time: 0.784 milliseconds
+[intialise_conversation.php][load_that][804]
+Inputs returned:Array
+(
+    [0] => Wiki orwell
+    [1] => /start
+    [2] => Wiki baterías de polímero de litio
+    [3] => Wiki hola holita
+    [4] => Wiki hola
+    [5] => Wiki pruebas
+    [6] => Wiki prueba
+    [7] => Wiki anonymous
+    [8] => wiki Wikileaks
+    [9] => wiki Ali G
+)
+ 
+-----------------------
+29-11-2018 17:08:16.23608[4][4] - Elapsed time: 0.031 milliseconds
+[intialise_conversation.php][load_that][805]
+Loading previous responses into the ~THAT~ array. 
+-----------------------
+29-11-2018 17:08:16.23612[1][4] - Elapsed time: 0.031 milliseconds
+[intialise_conversation.php][load_that][806]
+Responses returned:Array
+(
+    [0] => Eric Arthur Blair (Motihari, Raj Británico, 25 de junio de 1903[1]​[2]​-Londres, Reino Unido, 21 de enero de 1950), más conocido por el pseudónimo de George Orwell, fue un escritor y periodista británico, cuya obra lleva la marca de las experiencias personales vividas por el autor en tres etapas de su vida: su posición en contra del imperialismo británico que lo llevó al compromiso como representante de las fuerzas del orden colonial en Birmania durante su juventud; a favor del socialismo democrático, después de haber observado y sufrido las condiciones de vida de las clases sociales de los trabajadores de Londres y París; y en contra de los totalitarismos nazi y estalinista tras su participación en la Guerra Civil Española. Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/George_Orwell
+    [1] => No AIML category found. This is a Default Response.
+    [2] => La batería de polímero de iones de litio, de ion de litio polímero o más comúnmente batería de polímero de litio (abreviadamente Li-poli, Li-Pol, LiPo, LIP, PLI o LiP) son pilas recargables (células de secundaria), compuestas generalmente de varias células secundarias idénticas en paralelo para aumentar la capacidad de la corriente de descarga, y están a menudo disponibles en serie de "packs" para aumentar el voltaje total disponible. Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Bater%C3%ADa_de_pol%C3%ADmero_de_litio
+    [3] => Wikipedia returned no results!
+    [4] => El término «hola» se puede referir a: Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Hola
+    [5] => Prueba hace referencia a varios artículos: Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Prueba
+    [6] => 
+    [7] => Anonymous [əˈnɒnɪməs] (anónimo o anónimos en español) es un seudónimo utilizado mundialmente por diferentes grupos e individuos para realizar en su nombre —poniéndose de acuerdo con otros— acciones o publicaciones individuales o concertadas. Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Anonymous
+    [8] => WikiLeaks (del inglés leak, «fuga», «goteo», «filtración [de información]») es una organización mediática internacional sin ánimo de lucro, que publica a través de su sitio web informes anónimos y documentos filtrados con contenido sensible en materia de interés público, preservando el anonimato de sus fuentes.[2]​ El lanzamiento del sitio se realizó en diciembre de 2006, si bien su actividad comenzó en julio de 2007-2008. Desde entonces su base de datos ha crecido constantemente hasta acumular 1,2 millones de documentos.[3]​ Su creador es Julian Assange y está gestionado por The Sunshine Press.[4]​ Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/WikiLeaks
+    [9] => <a href="https://es.wikipedia.org/wiki/Ali_G" target="_blank">Ali G</a><br/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/AliG-Harv.jpg/26px-AliG-Harv.jpg" width="26" height="50"/><br/>
+Ali G es un personaje ficticio satírico inventado por el comediante Sacha Baron Cohen para reírse de la sociedad.
+)
+ 
+-----------------------
+29-11-2018 17:08:16.23618[2][4] - Elapsed time: 0.068 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.23621[2][4] - Elapsed time: 0.029 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => <a href="https://es
+    [1] => wikipedia
+    [2] => org/wiki/Ali_G" target="_blank">Ali G</a><br/>
+<img src="https://upload
+    [3] => wikimedia
+    [4] => org/wikipedia/commons/thumb/d/d8/AliG-Harv
+    [5] => jpg/26px-AliG-Harv
+    [6] => jpg" width="26" height="50"/><br/>
+Ali G es un personaje ficticio satírico inventado por el comediante Sacha Baron Cohen para reírse de la sociedad
+    [7] => 
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.23623[4][4] - Elapsed time: 0.015 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.23625[4][4] - Elapsed time: 0.022 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning '<a href="https://es wikipedia org/wiki/Ali_G" target="_blank">Ali G</a><br/>
+<img src="https://upload wikimedia org/wikipedia/commons/thumb/d/d8/AliG-Harv jpg/26px-AliG-Harv jpg" width="26" height="50"/><br/>
+Ali G es un personaje ficticio satírico inventado por el comediante Sacha Baron Cohen para reírse de la sociedad ' 
+-----------------------
+29-11-2018 17:08:16.23626[4][4] - Elapsed time: 0.015 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: '<a href="https://es wikipedia org/wiki/Ali_G" target="_blank">Ali G</a><br/>
+<img src="https://upload wikimedia org/wikipedia/commons/thumb/d/d8/AliG-Harv jpg/26px-AliG-Harv jpg" width="26" height="50"/><br/>
+Ali G es un personaje ficticio satírico inventado por el comediante Sacha Baron Cohen para reírse de la sociedad ' 
+-----------------------
+29-11-2018 17:08:16.23629[4][4] - Elapsed time: 0.021 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'Ali G.
+.
+Ali G es un personaje ficticio satírico inventado por el comediante Sacha Baron Cohen para reírse de la sociedad ' 
+-----------------------
+29-11-2018 17:08:16.23637[4][4] - Elapsed time: 0.082 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'ALI G ALI G ES UN PERSONAJE FICTICIO SATÍRICO INVENTADO POR EL COMEDIANTE SACHA BARON COHEN PARA REÍRSE DE LA SOCIEDAD' 
+-----------------------
+29-11-2018 17:08:16.23640[4][4] - Elapsed time: 0.035 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'ALI G ALI G ES UN PERSONAJE FICTICIO SATÍRICO INVENTADO POR EL COMEDIANTE SACHA BARON COHEN PARA REÍRSE DE LA SOCIEDAD' 
+-----------------------
+29-11-2018 17:08:16.23642[2][4] - Elapsed time: 0.015 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'ALI G ALI G ES UN PERSONAJE FICTICIO SATÍRICO INVENTADO POR EL COMEDIANTE SACHA BARON COHEN PARA REÍRSE DE LA SOCIEDAD' to the front of the [that] array 
+-----------------------
+29-11-2018 17:08:16.23647[4][4] - Elapsed time: 0.057 milliseconds
+[intialise_conversation.php][load_blank_array_element][62]
+Loading blank that array 
+-----------------------
+29-11-2018 17:08:16.23664[4][4] - Elapsed time: 0.165 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'ALI G ALI G ES UN PERSONAJE FICTICIO SATÍRICO INVENTADO POR EL COMEDIANTE SACHA BARON COHEN PARA REÍRSE DE LA SOCIEDAD' 
+-----------------------
+29-11-2018 17:08:16.23667[4][4] - Elapsed time: 0.027 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'ALI G ALI G ES UN PERSONAJE FICTICIO SATÍRICO INVENTADO POR EL COMEDIANTE SACHA BARON COHEN PARA REÍRSE DE LA SOCIEDAD' 
+-----------------------
+29-11-2018 17:08:16.23673[4][4] - Elapsed time: 0.060 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'ALI G ALI G ES UN PERSONAJE FICTICIO SATÍRICO INVENTADO POR EL COMEDIANTE SACHA BARON COHEN PARA REÍRSE DE LA SOCIEDAD' 
+-----------------------
+29-11-2018 17:08:16.23674[4][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'ALI G ALI G ES UN PERSONAJE FICTICIO SATÍRICO INVENTADO POR EL COMEDIANTE SACHA BARON COHEN PARA REÍRSE DE LA SOCIEDAD' 
+-----------------------
+29-11-2018 17:08:16.23678[2][4] - Elapsed time: 0.038 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.23681[2][4] - Elapsed time: 0.035 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => WikiLeaks (del inglés leak
+    [1] =>  «fuga»
+    [2] =>  «goteo»
+    [3] =>  «filtración [de información]») es una organización mediática internacional sin ánimo de lucro
+    [4] =>  que publica a través de su sitio web informes anónimos y documentos filtrados con contenido sensible en materia de interés público
+    [5] =>  preservando el anonimato de sus fuentes
+    [6] => [2]​ El lanzamiento del sitio se realizó en diciembre de 2006
+    [7] =>  si bien su actividad comenzó en julio de 2007-2008
+    [8] =>  Desde entonces su base de datos ha crecido constantemente hasta acumular 1
+    [9] => 2 millones de documentos
+    [10] => [3]​ Su creador es Julian Assange y está gestionado por The Sunshine Press
+    [11] => [4]​ Si quieres leer más lo tienes todo aquí https://es
+    [12] => wikipedia
+    [13] => org/wiki/WikiLeaks
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.23683[4][4] - Elapsed time: 0.015 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.23685[4][4] - Elapsed time: 0.022 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'WikiLeaks (del inglés leak «fuga» «goteo» «filtración [de información]») es una organización mediática internacional sin ánimo de lucro que publica a través de su sitio web informes anónimos y documentos filtrados con contenido sensible en materia de interés público preservando el anonimato de sus fuentes [2]​ El lanzamiento del sitio se realizó en diciembre de 2006 si bien su actividad comenzó en julio de 2007-2008 Desde entonces su base de datos ha crecido constantemente hasta acumular 1 2 millones de documentos [3]​ Su creador es Julian Assange y está gestionado por The Sunshine Press [4]​ Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/WikiLeaks' 
+-----------------------
+29-11-2018 17:08:16.23687[4][4] - Elapsed time: 0.022 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'WikiLeaks (del inglés leak «fuga» «goteo» «filtración [de información]») es una organización mediática internacional sin ánimo de lucro que publica a través de su sitio web informes anónimos y documentos filtrados con contenido sensible en materia de interés público preservando el anonimato de sus fuentes [2]​ El lanzamiento del sitio se realizó en diciembre de 2006 si bien su actividad comenzó en julio de 2007-2008 Desde entonces su base de datos ha crecido constantemente hasta acumular 1 2 millones de documentos [3]​ Su creador es Julian Assange y está gestionado por The Sunshine Press [4]​ Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/WikiLeaks' 
+-----------------------
+29-11-2018 17:08:16.23690[4][4] - Elapsed time: 0.023 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'WikiLeaks (del inglés leak «fuga» «goteo» «filtración [de información]») es una organización mediática internacional sin ánimo de lucro que publica a través de su sitio web informes anónimos y documentos filtrados con contenido sensible en materia de interés público preservando el anonimato de sus fuentes [2]​ El lanzamiento del sitio se realizó en diciembre de 2006 si bien su actividad comenzó en julio de 2007-2008 Desde entonces su base de datos ha crecido constantemente hasta acumular 1 2 millones de documentos [3]​ Su creador es Julian Assange y está gestionado por The Sunshine Press [4]​ Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/WikiLeaks' 
+-----------------------
+29-11-2018 17:08:16.23719[4][4] - Elapsed time: 0.294 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKILEAKS DEL INGLÉS LEAK FUGA GOTEO FILTRACIÓN DE INFORMACIÓN ES UNA ORGANIZACIÓN MEDIÁTICA INTERNACIONAL SIN ÁNIMO DE LUCRO QUE PUBLICA A TRAVÉS DE SU SITIO WEB INFORMES ANÓNIMOS Y DOCUMENTOS FILTRADOS CON CONTENIDO SENSIBLE EN MATERIA DE INTERÉS PÚBLICO PRESERVANDO EL ANONIMATO DE SUS FUENTES 2 ​ EL LANZAMIENTO DEL SITIO SE REALIZÓ EN DICIEMBRE DE 2006 SI BIEN SU ACTIVIDAD COMENZÓ EN JULIO DE 2007 MINUS 2008 DESDE ENTONCES SU BASE DE DATOS HA CRECIDO CONSTANTEMENTE HASTA ACUMULAR 1 2 MILLONES DE DOCUMENTOS 3 ​ SU CREADOR ES JULIAN ASSANGE Y ESTÁ GESTIONADO POR THE SUNSHINE PRESS 4 ​ SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI WIKILEAKS' 
+-----------------------
+29-11-2018 17:08:16.23721[4][4] - Elapsed time: 0.015 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'WIKILEAKS DEL INGLÉS LEAK FUGA GOTEO FILTRACIÓN DE INFORMACIÓN ES UNA ORGANIZACIÓN MEDIÁTICA INTERNACIONAL SIN ÁNIMO DE LUCRO QUE PUBLICA A TRAVÉS DE SU SITIO WEB INFORMES ANÓNIMOS Y DOCUMENTOS FILTRADOS CON CONTENIDO SENSIBLE EN MATERIA DE INTERÉS PÚBLICO PRESERVANDO EL ANONIMATO DE SUS FUENTES 2 ​ EL LANZAMIENTO DEL SITIO SE REALIZÓ EN DICIEMBRE DE 2006 SI BIEN SU ACTIVIDAD COMENZÓ EN JULIO DE 2007 MINUS 2008 DESDE ENTONCES SU BASE DE DATOS HA CRECIDO CONSTANTEMENTE HASTA ACUMULAR 1 2 MILLONES DE DOCUMENTOS 3 ​ SU CREADOR ES JULIAN ASSANGE Y ESTÁ GESTIONADO POR THE SUNSHINE PRESS 4 ​ SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI WIKILEAKS' 
+-----------------------
+29-11-2018 17:08:16.23722[2][4] - Elapsed time: 0.012 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'WIKILEAKS DEL INGLÉS LEAK FUGA GOTEO FILTRACIÓN DE INFORMACIÓN ES UNA ORGANIZACIÓN MEDIÁTICA INTERNACIONAL SIN ÁNIMO DE LUCRO QUE PUBLICA A TRAVÉS DE SU SITIO WEB INFORMES ANÓNIMOS Y DOCUMENTOS FILTRADOS CON CONTENIDO SENSIBLE EN MATERIA DE INTERÉS PÚBLICO PRESERVANDO EL ANONIMATO DE SUS FUENTES 2 ​ EL LANZAMIENTO DEL SITIO SE REALIZÓ EN DICIEMBRE DE 2006 SI BIEN SU ACTIVIDAD COMENZÓ EN JULIO DE 2007 MINUS 2008 DESDE ENTONCES SU BASE DE DATOS HA CRECIDO CONSTANTEMENTE HASTA ACUMULAR 1 2 MILLONES DE DOCUMENTOS 3 ​ SU CREADOR ES JULIAN ASSANGE Y ESTÁ GESTIONADO POR THE SUNSHINE PRESS 4 ​ SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI WIKILEAKS' to the front of the [that] array 
+-----------------------
+29-11-2018 17:08:16.23725[4][4] - Elapsed time: 0.036 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'WIKILEAKS DEL INGLÉS LEAK FUGA GOTEO FILTRACIÓN DE INFORMACIÓN ES UNA ORGANIZACIÓN MEDIÁTICA INTERNACIONAL SIN ÁNIMO DE LUCRO QUE PUBLICA A TRAVÉS DE SU SITIO WEB INFORMES ANÓNIMOS Y DOCUMENTOS FILTRADOS CON CONTENIDO SENSIBLE EN MATERIA DE INTERÉS PÚBLICO PRESERVANDO EL ANONIMATO DE SUS FUENTES 2 ​ EL LANZAMIENTO DEL SITIO SE REALIZÓ EN DICIEMBRE DE 2006 SI BIEN SU ACTIVIDAD COMENZÓ EN JULIO DE 2007 MINUS 2008 DESDE ENTONCES SU BASE DE DATOS HA CRECIDO CONSTANTEMENTE HASTA ACUMULAR 1 2 MILLONES DE DOCUMENTOS 3 ​ SU CREADOR ES JULIAN ASSANGE Y ESTÁ GESTIONADO POR THE SUNSHINE PRESS 4 ​ SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI WIKILEAKS' 
+-----------------------
+29-11-2018 17:08:16.23727[4][4] - Elapsed time: 0.021 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'WIKILEAKS DEL INGLÉS LEAK FUGA GOTEO FILTRACIÓN DE INFORMACIÓN ES UNA ORGANIZACIÓN MEDIÁTICA INTERNACIONAL SIN ÁNIMO DE LUCRO QUE PUBLICA A TRAVÉS DE SU SITIO WEB INFORMES ANÓNIMOS Y DOCUMENTOS FILTRADOS CON CONTENIDO SENSIBLE EN MATERIA DE INTERÉS PÚBLICO PRESERVANDO EL ANONIMATO DE SUS FUENTES 2 ​ EL LANZAMIENTO DEL SITIO SE REALIZÓ EN DICIEMBRE DE 2006 SI BIEN SU ACTIVIDAD COMENZÓ EN JULIO DE 2007 MINUS 2008 DESDE ENTONCES SU BASE DE DATOS HA CRECIDO CONSTANTEMENTE HASTA ACUMULAR 1 2 MILLONES DE DOCUMENTOS 3 ​ SU CREADOR ES JULIAN ASSANGE Y ESTÁ GESTIONADO POR THE SUNSHINE PRESS 4 ​ SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI WIKILEAKS' 
+-----------------------
+29-11-2018 17:08:16.23745[4][4] - Elapsed time: 0.180 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKILEAKS DEL INGLÉS LEAK FUGA GOTEO FILTRACIÓN DE INFORMACIÓN ES UNA ORGANIZACIÓN MEDIÁTICA INTERNACIONAL SIN ÁNIMO DE LUCRO QUE PUBLICA A TRAVÉS DE SU SITIO WEB INFORMES ANÓNIMOS Y DOCUMENTOS FILTRADOS CON CONTENIDO SENSIBLE EN MATERIA DE INTERÉS PÚBLICO PRESERVANDO EL ANONIMATO DE SUS FUENTES 2 ​ EL LANZAMIENTO DEL SITIO SE REALIZÓ EN DICIEMBRE DE 2006 SI BIEN SU ACTIVIDAD COMENZÓ EN JULIO DE 2007 MINUS 2008 DESDE ENTONCES SU BASE DE DATOS HA CRECIDO CONSTANTEMENTE HASTA ACUMULAR 1 2 MILLONES DE DOCUMENTOS 3 ​ SU CREADOR ES JULIAN ASSANGE Y ESTÁ GESTIONADO POR THE SUNSHINE PRESS 4 ​ SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI WIKILEAKS' 
+-----------------------
+29-11-2018 17:08:16.23747[4][4] - Elapsed time: 0.016 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'WIKILEAKS DEL INGLÉS LEAK FUGA GOTEO FILTRACIÓN DE INFORMACIÓN ES UNA ORGANIZACIÓN MEDIÁTICA INTERNACIONAL SIN ÁNIMO DE LUCRO QUE PUBLICA A TRAVÉS DE SU SITIO WEB INFORMES ANÓNIMOS Y DOCUMENTOS FILTRADOS CON CONTENIDO SENSIBLE EN MATERIA DE INTERÉS PÚBLICO PRESERVANDO EL ANONIMATO DE SUS FUENTES 2 ​ EL LANZAMIENTO DEL SITIO SE REALIZÓ EN DICIEMBRE DE 2006 SI BIEN SU ACTIVIDAD COMENZÓ EN JULIO DE 2007 MINUS 2008 DESDE ENTONCES SU BASE DE DATOS HA CRECIDO CONSTANTEMENTE HASTA ACUMULAR 1 2 MILLONES DE DOCUMENTOS 3 ​ SU CREADOR ES JULIAN ASSANGE Y ESTÁ GESTIONADO POR THE SUNSHINE PRESS 4 ​ SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI WIKILEAKS' 
+-----------------------
+29-11-2018 17:08:16.23749[2][4] - Elapsed time: 0.023 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.23752[2][4] - Elapsed time: 0.032 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => Anonymous [əˈnɒnɪməs] (anónimo o anónimos en español) es un seudónimo utilizado mundialmente por diferentes grupos e individuos para realizar en su nombre —poniéndose de acuerdo con otros— acciones o publicaciones individuales o concertadas
+    [1] =>  Si quieres leer más lo tienes todo aquí https://es
+    [2] => wikipedia
+    [3] => org/wiki/Anonymous
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.23754[4][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.23756[4][4] - Elapsed time: 0.017 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'Anonymous [əˈnɒnɪməs] (anónimo o anónimos en español) es un seudónimo utilizado mundialmente por diferentes grupos e individuos para realizar en su nombre —poniéndose de acuerdo con otros— acciones o publicaciones individuales o concertadas Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/Anonymous' 
+-----------------------
+29-11-2018 17:08:16.23757[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'Anonymous [əˈnɒnɪməs] (anónimo o anónimos en español) es un seudónimo utilizado mundialmente por diferentes grupos e individuos para realizar en su nombre —poniéndose de acuerdo con otros— acciones o publicaciones individuales o concertadas Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/Anonymous' 
+-----------------------
+29-11-2018 17:08:16.23759[4][4] - Elapsed time: 0.017 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'Anonymous [əˈnɒnɪməs] (anónimo o anónimos en español) es un seudónimo utilizado mundialmente por diferentes grupos e individuos para realizar en su nombre —poniéndose de acuerdo con otros— acciones o publicaciones individuales o concertadas Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/Anonymous' 
+-----------------------
+29-11-2018 17:08:16.23773[4][4] - Elapsed time: 0.147 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'ANONYMOUS ƏˈNⱰNɪMƏS ANÓNIMO O ANÓNIMOS EN ESPAÑOL ES UN SEUDÓNIMO UTILIZADO MUNDIALMENTE POR DIFERENTES GRUPOS E INDIVIDUOS PARA REALIZAR EN SU NOMBRE PONIÉNDOSE DE ACUERDO CON OTROS ACCIONES O PUBLICACIONES INDIVIDUALES O CONCERTADAS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI ANONYMOUS' 
+-----------------------
+29-11-2018 17:08:16.23775[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'ANONYMOUS ƏˈNⱰNɪMƏS ANÓNIMO O ANÓNIMOS EN ESPAÑOL ES UN SEUDÓNIMO UTILIZADO MUNDIALMENTE POR DIFERENTES GRUPOS E INDIVIDUOS PARA REALIZAR EN SU NOMBRE PONIÉNDOSE DE ACUERDO CON OTROS ACCIONES O PUBLICACIONES INDIVIDUALES O CONCERTADAS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI ANONYMOUS' 
+-----------------------
+29-11-2018 17:08:16.23776[2][4] - Elapsed time: 0.012 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'ANONYMOUS ƏˈNⱰNɪMƏS ANÓNIMO O ANÓNIMOS EN ESPAÑOL ES UN SEUDÓNIMO UTILIZADO MUNDIALMENTE POR DIFERENTES GRUPOS E INDIVIDUOS PARA REALIZAR EN SU NOMBRE PONIÉNDOSE DE ACUERDO CON OTROS ACCIONES O PUBLICACIONES INDIVIDUALES O CONCERTADAS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI ANONYMOUS' to the front of the [that] array 
+-----------------------
+29-11-2018 17:08:16.23779[4][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'ANONYMOUS ƏˈNⱰNɪMƏS ANÓNIMO O ANÓNIMOS EN ESPAÑOL ES UN SEUDÓNIMO UTILIZADO MUNDIALMENTE POR DIFERENTES GRUPOS E INDIVIDUOS PARA REALIZAR EN SU NOMBRE PONIÉNDOSE DE ACUERDO CON OTROS ACCIONES O PUBLICACIONES INDIVIDUALES O CONCERTADAS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI ANONYMOUS' 
+-----------------------
+29-11-2018 17:08:16.23780[4][4] - Elapsed time: 0.017 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'ANONYMOUS ƏˈNⱰNɪMƏS ANÓNIMO O ANÓNIMOS EN ESPAÑOL ES UN SEUDÓNIMO UTILIZADO MUNDIALMENTE POR DIFERENTES GRUPOS E INDIVIDUOS PARA REALIZAR EN SU NOMBRE PONIÉNDOSE DE ACUERDO CON OTROS ACCIONES O PUBLICACIONES INDIVIDUALES O CONCERTADAS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI ANONYMOUS' 
+-----------------------
+29-11-2018 17:08:16.23789[4][4] - Elapsed time: 0.091 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'ANONYMOUS ƏˈNⱰNɪMƏS ANÓNIMO O ANÓNIMOS EN ESPAÑOL ES UN SEUDÓNIMO UTILIZADO MUNDIALMENTE POR DIFERENTES GRUPOS E INDIVIDUOS PARA REALIZAR EN SU NOMBRE PONIÉNDOSE DE ACUERDO CON OTROS ACCIONES O PUBLICACIONES INDIVIDUALES O CONCERTADAS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI ANONYMOUS' 
+-----------------------
+29-11-2018 17:08:16.23791[4][4] - Elapsed time: 0.015 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'ANONYMOUS ƏˈNⱰNɪMƏS ANÓNIMO O ANÓNIMOS EN ESPAÑOL ES UN SEUDÓNIMO UTILIZADO MUNDIALMENTE POR DIFERENTES GRUPOS E INDIVIDUOS PARA REALIZAR EN SU NOMBRE PONIÉNDOSE DE ACUERDO CON OTROS ACCIONES O PUBLICACIONES INDIVIDUALES O CONCERTADAS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI ANONYMOUS' 
+-----------------------
+29-11-2018 17:08:16.23793[2][4] - Elapsed time: 0.021 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.23795[2][4] - Elapsed time: 0.017 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => 
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.23796[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.23797[4][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning '' 
+-----------------------
+29-11-2018 17:08:16.23799[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: '' 
+-----------------------
+29-11-2018 17:08:16.23800[4][4] - Elapsed time: 0.012 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = '' 
+-----------------------
+29-11-2018 17:08:16.23802[4][4] - Elapsed time: 0.022 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = '' 
+-----------------------
+29-11-2018 17:08:16.23803[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = '' 
+-----------------------
+29-11-2018 17:08:16.23805[2][4] - Elapsed time: 0.012 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing '' to the front of the [that] array 
+-----------------------
+29-11-2018 17:08:16.23807[4][4] - Elapsed time: 0.021 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: '' 
+-----------------------
+29-11-2018 17:08:16.23808[4][4] - Elapsed time: 0.014 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = '' 
+-----------------------
+29-11-2018 17:08:16.23810[4][4] - Elapsed time: 0.018 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = '' 
+-----------------------
+29-11-2018 17:08:16.23811[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = '' 
+-----------------------
+29-11-2018 17:08:16.23813[2][4] - Elapsed time: 0.018 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.23815[2][4] - Elapsed time: 0.023 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => Prueba hace referencia a varios artículos: Si quieres leer más lo tienes todo aquí https://es
+    [1] => wikipedia
+    [2] => org/wiki/Prueba
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.23817[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.23818[4][4] - Elapsed time: 0.015 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'Prueba hace referencia a varios artículos: Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/Prueba' 
+-----------------------
+29-11-2018 17:08:16.23819[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'Prueba hace referencia a varios artículos: Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/Prueba' 
+-----------------------
+29-11-2018 17:08:16.23821[4][4] - Elapsed time: 0.014 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'Prueba hace referencia a varios artículos: Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/Prueba' 
+-----------------------
+29-11-2018 17:08:16.23828[4][4] - Elapsed time: 0.068 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'PRUEBA HACE REFERENCIA A VARIOS ARTÍCULOS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI PRUEBA' 
+-----------------------
+29-11-2018 17:08:16.23829[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'PRUEBA HACE REFERENCIA A VARIOS ARTÍCULOS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI PRUEBA' 
+-----------------------
+29-11-2018 17:08:16.23830[2][4] - Elapsed time: 0.012 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'PRUEBA HACE REFERENCIA A VARIOS ARTÍCULOS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI PRUEBA' to the front of the [that] array 
+-----------------------
+29-11-2018 17:08:16.23833[4][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'PRUEBA HACE REFERENCIA A VARIOS ARTÍCULOS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI PRUEBA' 
+-----------------------
+29-11-2018 17:08:16.23834[4][4] - Elapsed time: 0.015 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'PRUEBA HACE REFERENCIA A VARIOS ARTÍCULOS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI PRUEBA' 
+-----------------------
+29-11-2018 17:08:16.23841[4][4] - Elapsed time: 0.067 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'PRUEBA HACE REFERENCIA A VARIOS ARTÍCULOS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI PRUEBA' 
+-----------------------
+29-11-2018 17:08:16.23842[4][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'PRUEBA HACE REFERENCIA A VARIOS ARTÍCULOS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI PRUEBA' 
+-----------------------
+29-11-2018 17:08:16.23844[2][4] - Elapsed time: 0.020 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.23847[2][4] - Elapsed time: 0.024 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => El término «hola» se puede referir a: Si quieres leer más lo tienes todo aquí https://es
+    [1] => wikipedia
+    [2] => org/wiki/Hola
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.23848[4][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.23849[4][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'El término «hola» se puede referir a: Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/Hola' 
+-----------------------
+29-11-2018 17:08:16.23850[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'El término «hola» se puede referir a: Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/Hola' 
+-----------------------
+29-11-2018 17:08:16.23852[4][4] - Elapsed time: 0.014 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'El término «hola» se puede referir a: Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/Hola' 
+-----------------------
+29-11-2018 17:08:16.23858[4][4] - Elapsed time: 0.065 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'EL TÉRMINO HOLA SE PUEDE REFERIR A SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI HOLA' 
+-----------------------
+29-11-2018 17:08:16.23860[4][4] - Elapsed time: 0.019 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'EL TÉRMINO HOLA SE PUEDE REFERIR A SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI HOLA' 
+-----------------------
+29-11-2018 17:08:16.23862[2][4] - Elapsed time: 0.012 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'EL TÉRMINO HOLA SE PUEDE REFERIR A SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI HOLA' to the front of the [that] array 
+-----------------------
+29-11-2018 17:08:16.23864[4][4] - Elapsed time: 0.025 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'EL TÉRMINO HOLA SE PUEDE REFERIR A SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI HOLA' 
+-----------------------
+29-11-2018 17:08:16.23866[4][4] - Elapsed time: 0.015 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'EL TÉRMINO HOLA SE PUEDE REFERIR A SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI HOLA' 
+-----------------------
+29-11-2018 17:08:16.23870[4][4] - Elapsed time: 0.043 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'EL TÉRMINO HOLA SE PUEDE REFERIR A SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI HOLA' 
+-----------------------
+29-11-2018 17:08:16.23871[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'EL TÉRMINO HOLA SE PUEDE REFERIR A SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI HOLA' 
+-----------------------
+29-11-2018 17:08:16.23873[2][4] - Elapsed time: 0.019 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.23875[2][4] - Elapsed time: 0.017 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => Wikipedia returned no results
+    [1] => 
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.23876[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.23877[4][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'Wikipedia returned no results ' 
+-----------------------
+29-11-2018 17:08:16.23879[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'Wikipedia returned no results ' 
+-----------------------
+29-11-2018 17:08:16.23880[4][4] - Elapsed time: 0.013 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'Wikipedia returned no results ' 
+-----------------------
+29-11-2018 17:08:16.23883[4][4] - Elapsed time: 0.032 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKIPEDIA RETURNED NO RESULTS' 
+-----------------------
+29-11-2018 17:08:16.23884[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'WIKIPEDIA RETURNED NO RESULTS' 
+-----------------------
+29-11-2018 17:08:16.23885[2][4] - Elapsed time: 0.012 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'WIKIPEDIA RETURNED NO RESULTS' to the front of the [that] array 
+-----------------------
+29-11-2018 17:08:16.23891[4][4] - Elapsed time: 0.054 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'WIKIPEDIA RETURNED NO RESULTS' 
+-----------------------
+29-11-2018 17:08:16.23893[4][4] - Elapsed time: 0.026 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'WIKIPEDIA RETURNED NO RESULTS' 
+-----------------------
+29-11-2018 17:08:16.23896[4][4] - Elapsed time: 0.026 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKIPEDIA RETURNED NO RESULTS' 
+-----------------------
+29-11-2018 17:08:16.23897[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'WIKIPEDIA RETURNED NO RESULTS' 
+-----------------------
+29-11-2018 17:08:16.23899[2][4] - Elapsed time: 0.018 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.23902[2][4] - Elapsed time: 0.027 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => La batería de polímero de iones de litio
+    [1] =>  de ion de litio polímero o más comúnmente batería de polímero de litio (abreviadamente Li-poli
+    [2] =>  Li-Pol
+    [3] =>  LiPo
+    [4] =>  LIP
+    [5] =>  PLI o LiP) son pilas recargables (células de secundaria)
+    [6] =>  compuestas generalmente de varias células secundarias idénticas en paralelo para aumentar la capacidad de la corriente de descarga
+    [7] =>  y están a menudo disponibles en serie de "packs" para aumentar el voltaje total disponible
+    [8] =>  Si quieres leer más lo tienes todo aquí https://es
+    [9] => wikipedia
+    [10] => org/wiki/Bater%C3%ADa_de_pol%C3%ADmero_de_litio
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.23903[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.23905[4][4] - Elapsed time: 0.020 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'La batería de polímero de iones de litio de ion de litio polímero o más comúnmente batería de polímero de litio (abreviadamente Li-poli Li-Pol LiPo LIP PLI o LiP) son pilas recargables (células de secundaria) compuestas generalmente de varias células secundarias idénticas en paralelo para aumentar la capacidad de la corriente de descarga y están a menudo disponibles en serie de "packs" para aumentar el voltaje total disponible Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/Bater%C3%ADa_de_pol%C3%ADmero_de_litio' 
+-----------------------
+29-11-2018 17:08:16.23906[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'La batería de polímero de iones de litio de ion de litio polímero o más comúnmente batería de polímero de litio (abreviadamente Li-poli Li-Pol LiPo LIP PLI o LiP) son pilas recargables (células de secundaria) compuestas generalmente de varias células secundarias idénticas en paralelo para aumentar la capacidad de la corriente de descarga y están a menudo disponibles en serie de "packs" para aumentar el voltaje total disponible Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/Bater%C3%ADa_de_pol%C3%ADmero_de_litio' 
+-----------------------
+29-11-2018 17:08:16.23908[4][4] - Elapsed time: 0.018 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'La batería de polímero de iones de litio de ion de litio polímero o más comúnmente batería de polímero de litio (abreviadamente Li-poli Li-Pol LiPo LIP PLI o LiP) son pilas recargables (células de secundaria) compuestas generalmente de varias células secundarias idénticas en paralelo para aumentar la capacidad de la corriente de descarga y están a menudo disponibles en serie de "packs" para aumentar el voltaje total disponible Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/Bater%C3%ADa_de_pol%C3%ADmero_de_litio' 
+-----------------------
+29-11-2018 17:08:16.23929[4][4] - Elapsed time: 0.209 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'LA BATERÍA DE POLÍMERO DE IONES DE LITIO DE ION DE LITIO POLÍMERO O MÁS COMÚNMENTE BATERÍA DE POLÍMERO DE LITIO ABREVIADAMENTE LI POLI LI POL LIPO LIP PLI O LIP SON PILAS RECARGABLES CÉLULAS DE SECUNDARIA COMPUESTAS GENERALMENTE DE VARIAS CÉLULAS SECUNDARIAS IDÉNTICAS EN PARALELO PARA AUMENTAR LA CAPACIDAD DE LA CORRIENTE DE DESCARGA Y ESTÁN A MENUDO DISPONIBLES EN SERIE DE PACKS PARA AUMENTAR EL VOLTAJE TOTAL DISPONIBLE SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI BATER C3 ADA DE POL C3 ADMERO DE LITIO' 
+-----------------------
+29-11-2018 17:08:16.23930[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'LA BATERÍA DE POLÍMERO DE IONES DE LITIO DE ION DE LITIO POLÍMERO O MÁS COMÚNMENTE BATERÍA DE POLÍMERO DE LITIO ABREVIADAMENTE LI POLI LI POL LIPO LIP PLI O LIP SON PILAS RECARGABLES CÉLULAS DE SECUNDARIA COMPUESTAS GENERALMENTE DE VARIAS CÉLULAS SECUNDARIAS IDÉNTICAS EN PARALELO PARA AUMENTAR LA CAPACIDAD DE LA CORRIENTE DE DESCARGA Y ESTÁN A MENUDO DISPONIBLES EN SERIE DE PACKS PARA AUMENTAR EL VOLTAJE TOTAL DISPONIBLE SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI BATER C3 ADA DE POL C3 ADMERO DE LITIO' 
+-----------------------
+29-11-2018 17:08:16.23931[2][4] - Elapsed time: 0.012 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'LA BATERÍA DE POLÍMERO DE IONES DE LITIO DE ION DE LITIO POLÍMERO O MÁS COMÚNMENTE BATERÍA DE POLÍMERO DE LITIO ABREVIADAMENTE LI POLI LI POL LIPO LIP PLI O LIP SON PILAS RECARGABLES CÉLULAS DE SECUNDARIA COMPUESTAS GENERALMENTE DE VARIAS CÉLULAS SECUNDARIAS IDÉNTICAS EN PARALELO PARA AUMENTAR LA CAPACIDAD DE LA CORRIENTE DE DESCARGA Y ESTÁN A MENUDO DISPONIBLES EN SERIE DE PACKS PARA AUMENTAR EL VOLTAJE TOTAL DISPONIBLE SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI BATER C3 ADA DE POL C3 ADMERO DE LITIO' to the front of the [that] array 
+-----------------------
+29-11-2018 17:08:16.23934[4][4] - Elapsed time: 0.028 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'LA BATERÍA DE POLÍMERO DE IONES DE LITIO DE ION DE LITIO POLÍMERO O MÁS COMÚNMENTE BATERÍA DE POLÍMERO DE LITIO ABREVIADAMENTE LI POLI LI POL LIPO LIP PLI O LIP SON PILAS RECARGABLES CÉLULAS DE SECUNDARIA COMPUESTAS GENERALMENTE DE VARIAS CÉLULAS SECUNDARIAS IDÉNTICAS EN PARALELO PARA AUMENTAR LA CAPACIDAD DE LA CORRIENTE DE DESCARGA Y ESTÁN A MENUDO DISPONIBLES EN SERIE DE PACKS PARA AUMENTAR EL VOLTAJE TOTAL DISPONIBLE SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI BATER C3 ADA DE POL C3 ADMERO DE LITIO' 
+-----------------------
+29-11-2018 17:08:16.23936[4][4] - Elapsed time: 0.019 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'LA BATERÍA DE POLÍMERO DE IONES DE LITIO DE ION DE LITIO POLÍMERO O MÁS COMÚNMENTE BATERÍA DE POLÍMERO DE LITIO ABREVIADAMENTE LI POLI LI POL LIPO LIP PLI O LIP SON PILAS RECARGABLES CÉLULAS DE SECUNDARIA COMPUESTAS GENERALMENTE DE VARIAS CÉLULAS SECUNDARIAS IDÉNTICAS EN PARALELO PARA AUMENTAR LA CAPACIDAD DE LA CORRIENTE DE DESCARGA Y ESTÁN A MENUDO DISPONIBLES EN SERIE DE PACKS PARA AUMENTAR EL VOLTAJE TOTAL DISPONIBLE SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI BATER C3 ADA DE POL C3 ADMERO DE LITIO' 
+-----------------------
+29-11-2018 17:08:16.23949[4][4] - Elapsed time: 0.132 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'LA BATERÍA DE POLÍMERO DE IONES DE LITIO DE ION DE LITIO POLÍMERO O MÁS COMÚNMENTE BATERÍA DE POLÍMERO DE LITIO ABREVIADAMENTE LI POLI LI POL LIPO LIP PLI O LIP SON PILAS RECARGABLES CÉLULAS DE SECUNDARIA COMPUESTAS GENERALMENTE DE VARIAS CÉLULAS SECUNDARIAS IDÉNTICAS EN PARALELO PARA AUMENTAR LA CAPACIDAD DE LA CORRIENTE DE DESCARGA Y ESTÁN A MENUDO DISPONIBLES EN SERIE DE PACKS PARA AUMENTAR EL VOLTAJE TOTAL DISPONIBLE SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI BATER C3 ADA DE POL C3 ADMERO DE LITIO' 
+-----------------------
+29-11-2018 17:08:16.23951[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'LA BATERÍA DE POLÍMERO DE IONES DE LITIO DE ION DE LITIO POLÍMERO O MÁS COMÚNMENTE BATERÍA DE POLÍMERO DE LITIO ABREVIADAMENTE LI POLI LI POL LIPO LIP PLI O LIP SON PILAS RECARGABLES CÉLULAS DE SECUNDARIA COMPUESTAS GENERALMENTE DE VARIAS CÉLULAS SECUNDARIAS IDÉNTICAS EN PARALELO PARA AUMENTAR LA CAPACIDAD DE LA CORRIENTE DE DESCARGA Y ESTÁN A MENUDO DISPONIBLES EN SERIE DE PACKS PARA AUMENTAR EL VOLTAJE TOTAL DISPONIBLE SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI BATER C3 ADA DE POL C3 ADMERO DE LITIO' 
+-----------------------
+29-11-2018 17:08:16.23953[2][4] - Elapsed time: 0.019 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.23954[2][4] - Elapsed time: 0.018 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => No AIML category found
+    [1] =>  This is a Default Response
+    [2] => 
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.23955[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.23957[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'No AIML category found This is a Default Response ' 
+-----------------------
+29-11-2018 17:08:16.23958[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'No AIML category found This is a Default Response ' 
+-----------------------
+29-11-2018 17:08:16.23959[4][4] - Elapsed time: 0.012 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'No AIML category found This is a Default Response ' 
+-----------------------
+29-11-2018 17:08:16.23963[4][4] - Elapsed time: 0.037 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'NO AIML CATEGORY FOUND THIS IS A DEFAULT RESPONSE' 
+-----------------------
+29-11-2018 17:08:16.23964[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'NO AIML CATEGORY FOUND THIS IS A DEFAULT RESPONSE' 
+-----------------------
+29-11-2018 17:08:16.23966[2][4] - Elapsed time: 0.016 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'NO AIML CATEGORY FOUND THIS IS A DEFAULT RESPONSE' to the front of the [that] array 
+-----------------------
+29-11-2018 17:08:16.23968[4][4] - Elapsed time: 0.021 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'NO AIML CATEGORY FOUND THIS IS A DEFAULT RESPONSE' 
+-----------------------
+29-11-2018 17:08:16.23969[4][4] - Elapsed time: 0.013 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'NO AIML CATEGORY FOUND THIS IS A DEFAULT RESPONSE' 
+-----------------------
+29-11-2018 17:08:16.23972[4][4] - Elapsed time: 0.028 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'NO AIML CATEGORY FOUND THIS IS A DEFAULT RESPONSE' 
+-----------------------
+29-11-2018 17:08:16.23973[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'NO AIML CATEGORY FOUND THIS IS A DEFAULT RESPONSE' 
+-----------------------
+29-11-2018 17:08:16.23975[2][4] - Elapsed time: 0.017 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.23977[2][4] - Elapsed time: 0.023 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => Eric Arthur Blair (Motihari
+    [1] =>  Raj Británico
+    [2] =>  25 de junio de 1903[1]​[2]​-Londres
+    [3] =>  Reino Unido
+    [4] =>  21 de enero de 1950)
+    [5] =>  más conocido por el pseudónimo de George Orwell
+    [6] =>  fue un escritor y periodista británico
+    [7] =>  cuya obra lleva la marca de las experiencias personales vividas por el autor en tres etapas de su vida: su posición en contra del imperialismo británico que lo llevó al compromiso como representante de las fuerzas del orden colonial en Birmania durante su juventud
+    [8] =>  a favor del socialismo democrático
+    [9] =>  después de haber observado y sufrido las condiciones de vida de las clases sociales de los trabajadores de Londres y París
+    [10] =>  y en contra de los totalitarismos nazi y estalinista tras su participación en la Guerra Civil Española
+    [11] =>  Si quieres leer más lo tienes todo aquí https://es
+    [12] => wikipedia
+    [13] => org/wiki/George_Orwell
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.23978[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.23980[4][4] - Elapsed time: 0.022 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'Eric Arthur Blair (Motihari Raj Británico 25 de junio de 1903[1]​[2]​-Londres Reino Unido 21 de enero de 1950) más conocido por el pseudónimo de George Orwell fue un escritor y periodista británico cuya obra lleva la marca de las experiencias personales vividas por el autor en tres etapas de su vida: su posición en contra del imperialismo británico que lo llevó al compromiso como representante de las fuerzas del orden colonial en Birmania durante su juventud a favor del socialismo democrático después de haber observado y sufrido las condiciones de vida de las clases sociales de los trabajadores de Londres y París y en contra de los totalitarismos nazi y estalinista tras su participación en la Guerra Civil Española Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/George_Orwell' 
+-----------------------
+29-11-2018 17:08:16.23982[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'Eric Arthur Blair (Motihari Raj Británico 25 de junio de 1903[1]​[2]​-Londres Reino Unido 21 de enero de 1950) más conocido por el pseudónimo de George Orwell fue un escritor y periodista británico cuya obra lleva la marca de las experiencias personales vividas por el autor en tres etapas de su vida: su posición en contra del imperialismo británico que lo llevó al compromiso como representante de las fuerzas del orden colonial en Birmania durante su juventud a favor del socialismo democrático después de haber observado y sufrido las condiciones de vida de las clases sociales de los trabajadores de Londres y París y en contra de los totalitarismos nazi y estalinista tras su participación en la Guerra Civil Española Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/George_Orwell' 
+-----------------------
+29-11-2018 17:08:16.23984[4][4] - Elapsed time: 0.021 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'Eric Arthur Blair (Motihari Raj Británico 25 de junio de 1903[1]​[2]​-Londres Reino Unido 21 de enero de 1950) más conocido por el pseudónimo de George Orwell fue un escritor y periodista británico cuya obra lleva la marca de las experiencias personales vividas por el autor en tres etapas de su vida: su posición en contra del imperialismo británico que lo llevó al compromiso como representante de las fuerzas del orden colonial en Birmania durante su juventud a favor del socialismo democrático después de haber observado y sufrido las condiciones de vida de las clases sociales de los trabajadores de Londres y París y en contra de los totalitarismos nazi y estalinista tras su participación en la Guerra Civil Española Si quieres leer más lo tienes todo aquí https://es wikipedia org/wiki/George_Orwell' 
+-----------------------
+29-11-2018 17:08:16.24015[4][4] - Elapsed time: 0.309 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'ERIC ARTHUR BLAIR MOTIHARI RAJ BRITÁNICO 25 DE JUNIO DE 1903 1 ​ 2 ​ LONDRES REINO UNIDO 21 DE ENERO DE 1950 MÁS CONOCIDO POR EL PSEUDÓNIMO DE GEORGE ORWELL FUE UN ESCRITOR Y PERIODISTA BRITÁNICO CUYA OBRA LLEVA LA MARCA DE LAS EXPERIENCIAS PERSONALES VIVIDAS POR EL AUTOR EN TRES ETAPAS DE SU VIDA SU POSICIÓN EN CONTRA DEL IMPERIALISMO BRITÁNICO QUE LO LLEVÓ AL COMPROMISO COMO REPRESENTANTE DE LAS FUERZAS DEL ORDEN COLONIAL EN BIRMANIA DURANTE SU JUVENTUD A FAVOR DEL SOCIALISMO DEMOCRÁTICO DESPUÉS DE HABER OBSERVADO Y SUFRIDO LAS CONDICIONES DE VIDA DE LAS CLASES SOCIALES DE LOS TRABAJADORES DE LONDRES Y PARÍS Y EN CONTRA DE LOS TOTALITARISMOS NAZI Y ESTALINISTA TRAS SU PARTICIPACIÓN EN LA GUERRA CIVIL ESPAÑOLA SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI GEORGE ORWELL' 
+-----------------------
+29-11-2018 17:08:16.24016[4][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'ERIC ARTHUR BLAIR MOTIHARI RAJ BRITÁNICO 25 DE JUNIO DE 1903 1 ​ 2 ​ LONDRES REINO UNIDO 21 DE ENERO DE 1950 MÁS CONOCIDO POR EL PSEUDÓNIMO DE GEORGE ORWELL FUE UN ESCRITOR Y PERIODISTA BRITÁNICO CUYA OBRA LLEVA LA MARCA DE LAS EXPERIENCIAS PERSONALES VIVIDAS POR EL AUTOR EN TRES ETAPAS DE SU VIDA SU POSICIÓN EN CONTRA DEL IMPERIALISMO BRITÁNICO QUE LO LLEVÓ AL COMPROMISO COMO REPRESENTANTE DE LAS FUERZAS DEL ORDEN COLONIAL EN BIRMANIA DURANTE SU JUVENTUD A FAVOR DEL SOCIALISMO DEMOCRÁTICO DESPUÉS DE HABER OBSERVADO Y SUFRIDO LAS CONDICIONES DE VIDA DE LAS CLASES SOCIALES DE LOS TRABAJADORES DE LONDRES Y PARÍS Y EN CONTRA DE LOS TOTALITARISMOS NAZI Y ESTALINISTA TRAS SU PARTICIPACIÓN EN LA GUERRA CIVIL ESPAÑOLA SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI GEORGE ORWELL' 
+-----------------------
+29-11-2018 17:08:16.24017[2][4] - Elapsed time: 0.012 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'ERIC ARTHUR BLAIR MOTIHARI RAJ BRITÁNICO 25 DE JUNIO DE 1903 1 ​ 2 ​ LONDRES REINO UNIDO 21 DE ENERO DE 1950 MÁS CONOCIDO POR EL PSEUDÓNIMO DE GEORGE ORWELL FUE UN ESCRITOR Y PERIODISTA BRITÁNICO CUYA OBRA LLEVA LA MARCA DE LAS EXPERIENCIAS PERSONALES VIVIDAS POR EL AUTOR EN TRES ETAPAS DE SU VIDA SU POSICIÓN EN CONTRA DEL IMPERIALISMO BRITÁNICO QUE LO LLEVÓ AL COMPROMISO COMO REPRESENTANTE DE LAS FUERZAS DEL ORDEN COLONIAL EN BIRMANIA DURANTE SU JUVENTUD A FAVOR DEL SOCIALISMO DEMOCRÁTICO DESPUÉS DE HABER OBSERVADO Y SUFRIDO LAS CONDICIONES DE VIDA DE LAS CLASES SOCIALES DE LOS TRABAJADORES DE LONDRES Y PARÍS Y EN CONTRA DE LOS TOTALITARISMOS NAZI Y ESTALINISTA TRAS SU PARTICIPACIÓN EN LA GUERRA CIVIL ESPAÑOLA SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI GEORGE ORWELL' to the front of the [that] array 
+-----------------------
+29-11-2018 17:08:16.24021[4][4] - Elapsed time: 0.037 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'ERIC ARTHUR BLAIR MOTIHARI RAJ BRITÁNICO 25 DE JUNIO DE 1903 1 ​ 2 ​ LONDRES REINO UNIDO 21 DE ENERO DE 1950 MÁS CONOCIDO POR EL PSEUDÓNIMO DE GEORGE ORWELL FUE UN ESCRITOR Y PERIODISTA BRITÁNICO CUYA OBRA LLEVA LA MARCA DE LAS EXPERIENCIAS PERSONALES VIVIDAS POR EL AUTOR EN TRES ETAPAS DE SU VIDA SU POSICIÓN EN CONTRA DEL IMPERIALISMO BRITÁNICO QUE LO LLEVÓ AL COMPROMISO COMO REPRESENTANTE DE LAS FUERZAS DEL ORDEN COLONIAL EN BIRMANIA DURANTE SU JUVENTUD A FAVOR DEL SOCIALISMO DEMOCRÁTICO DESPUÉS DE HABER OBSERVADO Y SUFRIDO LAS CONDICIONES DE VIDA DE LAS CLASES SOCIALES DE LOS TRABAJADORES DE LONDRES Y PARÍS Y EN CONTRA DE LOS TOTALITARISMOS NAZI Y ESTALINISTA TRAS SU PARTICIPACIÓN EN LA GUERRA CIVIL ESPAÑOLA SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI GEORGE ORWELL' 
+-----------------------
+29-11-2018 17:08:16.24023[4][4] - Elapsed time: 0.020 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'ERIC ARTHUR BLAIR MOTIHARI RAJ BRITÁNICO 25 DE JUNIO DE 1903 1 ​ 2 ​ LONDRES REINO UNIDO 21 DE ENERO DE 1950 MÁS CONOCIDO POR EL PSEUDÓNIMO DE GEORGE ORWELL FUE UN ESCRITOR Y PERIODISTA BRITÁNICO CUYA OBRA LLEVA LA MARCA DE LAS EXPERIENCIAS PERSONALES VIVIDAS POR EL AUTOR EN TRES ETAPAS DE SU VIDA SU POSICIÓN EN CONTRA DEL IMPERIALISMO BRITÁNICO QUE LO LLEVÓ AL COMPROMISO COMO REPRESENTANTE DE LAS FUERZAS DEL ORDEN COLONIAL EN BIRMANIA DURANTE SU JUVENTUD A FAVOR DEL SOCIALISMO DEMOCRÁTICO DESPUÉS DE HABER OBSERVADO Y SUFRIDO LAS CONDICIONES DE VIDA DE LAS CLASES SOCIALES DE LOS TRABAJADORES DE LONDRES Y PARÍS Y EN CONTRA DE LOS TOTALITARISMOS NAZI Y ESTALINISTA TRAS SU PARTICIPACIÓN EN LA GUERRA CIVIL ESPAÑOLA SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI GEORGE ORWELL' 
+-----------------------
+29-11-2018 17:08:16.24042[4][4] - Elapsed time: 0.191 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'ERIC ARTHUR BLAIR MOTIHARI RAJ BRITÁNICO 25 DE JUNIO DE 1903 1 ​ 2 ​ LONDRES REINO UNIDO 21 DE ENERO DE 1950 MÁS CONOCIDO POR EL PSEUDÓNIMO DE GEORGE ORWELL FUE UN ESCRITOR Y PERIODISTA BRITÁNICO CUYA OBRA LLEVA LA MARCA DE LAS EXPERIENCIAS PERSONALES VIVIDAS POR EL AUTOR EN TRES ETAPAS DE SU VIDA SU POSICIÓN EN CONTRA DEL IMPERIALISMO BRITÁNICO QUE LO LLEVÓ AL COMPROMISO COMO REPRESENTANTE DE LAS FUERZAS DEL ORDEN COLONIAL EN BIRMANIA DURANTE SU JUVENTUD A FAVOR DEL SOCIALISMO DEMOCRÁTICO DESPUÉS DE HABER OBSERVADO Y SUFRIDO LAS CONDICIONES DE VIDA DE LAS CLASES SOCIALES DE LOS TRABAJADORES DE LONDRES Y PARÍS Y EN CONTRA DE LOS TOTALITARISMOS NAZI Y ESTALINISTA TRAS SU PARTICIPACIÓN EN LA GUERRA CIVIL ESPAÑOLA SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI GEORGE ORWELL' 
+-----------------------
+29-11-2018 17:08:16.24044[4][4] - Elapsed time: 0.015 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'ERIC ARTHUR BLAIR MOTIHARI RAJ BRITÁNICO 25 DE JUNIO DE 1903 1 ​ 2 ​ LONDRES REINO UNIDO 21 DE ENERO DE 1950 MÁS CONOCIDO POR EL PSEUDÓNIMO DE GEORGE ORWELL FUE UN ESCRITOR Y PERIODISTA BRITÁNICO CUYA OBRA LLEVA LA MARCA DE LAS EXPERIENCIAS PERSONALES VIVIDAS POR EL AUTOR EN TRES ETAPAS DE SU VIDA SU POSICIÓN EN CONTRA DEL IMPERIALISMO BRITÁNICO QUE LO LLEVÓ AL COMPROMISO COMO REPRESENTANTE DE LAS FUERZAS DEL ORDEN COLONIAL EN BIRMANIA DURANTE SU JUVENTUD A FAVOR DEL SOCIALISMO DEMOCRÁTICO DESPUÉS DE HABER OBSERVADO Y SUFRIDO LAS CONDICIONES DE VIDA DE LAS CLASES SOCIALES DE LOS TRABAJADORES DE LONDRES Y PARÍS Y EN CONTRA DE LOS TOTALITARISMOS NAZI Y ESTALINISTA TRAS SU PARTICIPACIÓN EN LA GUERRA CIVIL ESPAÑOLA SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI GEORGE ORWELL' 
+-----------------------
+29-11-2018 17:08:16.24045[4][4] - Elapsed time: 0.019 milliseconds
+[intialise_conversation.php][load_that][835]
+Loading previous user inputs into the ~INPUT~ array. 
+-----------------------
+29-11-2018 17:08:16.24047[2][4] - Elapsed time: 0.020 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.24049[2][4] - Elapsed time: 0.016 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => wiki Ali G
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.24050[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.24052[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'wiki Ali G' 
+-----------------------
+29-11-2018 17:08:16.24053[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'wiki Ali G' 
+-----------------------
+29-11-2018 17:08:16.24054[4][4] - Elapsed time: 0.011 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'wiki Ali G' 
+-----------------------
+29-11-2018 17:08:16.24058[4][4] - Elapsed time: 0.036 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKI ALI G' 
+-----------------------
+29-11-2018 17:08:16.24059[4][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'WIKI ALI G' 
+-----------------------
+29-11-2018 17:08:16.24060[2][4] - Elapsed time: 0.011 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'WIKI ALI G' to the front of the [input] array 
+-----------------------
+29-11-2018 17:08:16.24061[4][4] - Elapsed time: 0.015 milliseconds
+[intialise_conversation.php][load_blank_array_element][62]
+Loading blank input array 
+-----------------------
+29-11-2018 17:08:16.24064[2][4] - Elapsed time: 0.021 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.24066[2][4] - Elapsed time: 0.020 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => wiki Wikileaks
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.24067[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.24068[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'wiki Wikileaks' 
+-----------------------
+29-11-2018 17:08:16.24069[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'wiki Wikileaks' 
+-----------------------
+29-11-2018 17:08:16.24070[4][4] - Elapsed time: 0.012 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'wiki Wikileaks' 
+-----------------------
+29-11-2018 17:08:16.24073[4][4] - Elapsed time: 0.024 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKI WIKILEAKS' 
+-----------------------
+29-11-2018 17:08:16.24074[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'WIKI WIKILEAKS' 
+-----------------------
+29-11-2018 17:08:16.24075[2][4] - Elapsed time: 0.011 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'WIKI WIKILEAKS' to the front of the [input] array 
+-----------------------
+29-11-2018 17:08:16.24077[2][4] - Elapsed time: 0.018 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.24078[2][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => Wiki anonymous
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.24080[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.24081[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'Wiki anonymous' 
+-----------------------
+29-11-2018 17:08:16.24082[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'Wiki anonymous' 
+-----------------------
+29-11-2018 17:08:16.24083[4][4] - Elapsed time: 0.011 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'Wiki anonymous' 
+-----------------------
+29-11-2018 17:08:16.24085[4][4] - Elapsed time: 0.024 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKI ANONYMOUS' 
+-----------------------
+29-11-2018 17:08:16.24087[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'WIKI ANONYMOUS' 
+-----------------------
+29-11-2018 17:08:16.24088[2][4] - Elapsed time: 0.010 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'WIKI ANONYMOUS' to the front of the [input] array 
+-----------------------
+29-11-2018 17:08:16.24089[2][4] - Elapsed time: 0.017 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.24091[2][4] - Elapsed time: 0.015 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => Wiki prueba
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.24092[4][4] - Elapsed time: 0.011 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.24093[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'Wiki prueba' 
+-----------------------
+29-11-2018 17:08:16.24094[4][4] - Elapsed time: 0.011 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'Wiki prueba' 
+-----------------------
+29-11-2018 17:08:16.24095[4][4] - Elapsed time: 0.011 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'Wiki prueba' 
+-----------------------
+29-11-2018 17:08:16.24098[4][4] - Elapsed time: 0.024 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKI PRUEBA' 
+-----------------------
+29-11-2018 17:08:16.24099[4][4] - Elapsed time: 0.017 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'WIKI PRUEBA' 
+-----------------------
+29-11-2018 17:08:16.24101[2][4] - Elapsed time: 0.011 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'WIKI PRUEBA' to the front of the [input] array 
+-----------------------
+29-11-2018 17:08:16.24103[2][4] - Elapsed time: 0.022 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.24105[2][4] - Elapsed time: 0.019 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => Wiki pruebas
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.24106[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.24107[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'Wiki pruebas' 
+-----------------------
+29-11-2018 17:08:16.24108[4][4] - Elapsed time: 0.011 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'Wiki pruebas' 
+-----------------------
+29-11-2018 17:08:16.24109[4][4] - Elapsed time: 0.011 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'Wiki pruebas' 
+-----------------------
+29-11-2018 17:08:16.24112[4][4] - Elapsed time: 0.023 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKI PRUEBAS' 
+-----------------------
+29-11-2018 17:08:16.24113[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'WIKI PRUEBAS' 
+-----------------------
+29-11-2018 17:08:16.24114[2][4] - Elapsed time: 0.011 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'WIKI PRUEBAS' to the front of the [input] array 
+-----------------------
+29-11-2018 17:08:16.24116[2][4] - Elapsed time: 0.017 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.24118[2][4] - Elapsed time: 0.020 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => Wiki hola
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.24119[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.24120[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'Wiki hola' 
+-----------------------
+29-11-2018 17:08:16.24121[4][4] - Elapsed time: 0.011 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'Wiki hola' 
+-----------------------
+29-11-2018 17:08:16.24122[4][4] - Elapsed time: 0.011 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'Wiki hola' 
+-----------------------
+29-11-2018 17:08:16.24124[4][4] - Elapsed time: 0.022 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKI HOLA' 
+-----------------------
+29-11-2018 17:08:16.24126[4][4] - Elapsed time: 0.019 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'WIKI HOLA' 
+-----------------------
+29-11-2018 17:08:16.24128[2][4] - Elapsed time: 0.012 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'WIKI HOLA' to the front of the [input] array 
+-----------------------
+29-11-2018 17:08:16.24129[2][4] - Elapsed time: 0.017 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.24131[2][4] - Elapsed time: 0.019 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => Wiki hola holita
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.24132[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.24133[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'Wiki hola holita' 
+-----------------------
+29-11-2018 17:08:16.24135[4][4] - Elapsed time: 0.011 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'Wiki hola holita' 
+-----------------------
+29-11-2018 17:08:16.24136[4][4] - Elapsed time: 0.012 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'Wiki hola holita' 
+-----------------------
+29-11-2018 17:08:16.24139[4][4] - Elapsed time: 0.034 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKI HOLA HOLITA' 
+-----------------------
+29-11-2018 17:08:16.24141[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'WIKI HOLA HOLITA' 
+-----------------------
+29-11-2018 17:08:16.24142[2][4] - Elapsed time: 0.011 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'WIKI HOLA HOLITA' to the front of the [input] array 
+-----------------------
+29-11-2018 17:08:16.24143[2][4] - Elapsed time: 0.017 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.24145[2][4] - Elapsed time: 0.015 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => Wiki baterías de polímero de litio
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.24146[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.24147[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'Wiki baterías de polímero de litio' 
+-----------------------
+29-11-2018 17:08:16.24148[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'Wiki baterías de polímero de litio' 
+-----------------------
+29-11-2018 17:08:16.24149[4][4] - Elapsed time: 0.011 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'Wiki baterías de polímero de litio' 
+-----------------------
+29-11-2018 17:08:16.24155[4][4] - Elapsed time: 0.054 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKI BATERÍAS DE POLÍMERO DE LITIO' 
+-----------------------
+29-11-2018 17:08:16.24156[4][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'WIKI BATERÍAS DE POLÍMERO DE LITIO' 
+-----------------------
+29-11-2018 17:08:16.24157[2][4] - Elapsed time: 0.011 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'WIKI BATERÍAS DE POLÍMERO DE LITIO' to the front of the [input] array 
+-----------------------
+29-11-2018 17:08:16.24159[2][4] - Elapsed time: 0.017 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.24161[2][4] - Elapsed time: 0.023 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => /start
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.24163[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.24164[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning '/start' 
+-----------------------
+29-11-2018 17:08:16.24165[4][4] - Elapsed time: 0.011 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: '/start' 
+-----------------------
+29-11-2018 17:08:16.24166[4][4] - Elapsed time: 0.012 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = '/start' 
+-----------------------
+29-11-2018 17:08:16.24168[4][4] - Elapsed time: 0.022 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'START' 
+-----------------------
+29-11-2018 17:08:16.24169[4][4] - Elapsed time: 0.011 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'START' 
+-----------------------
+29-11-2018 17:08:16.24170[2][4] - Elapsed time: 0.011 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'START' to the front of the [input] array 
+-----------------------
+29-11-2018 17:08:16.24172[2][4] - Elapsed time: 0.017 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.24174[2][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => Wiki orwell
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.24175[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.24177[4][4] - Elapsed time: 0.021 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'Wiki orwell' 
+-----------------------
+29-11-2018 17:08:16.24178[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'Wiki orwell' 
+-----------------------
+29-11-2018 17:08:16.24179[4][4] - Elapsed time: 0.011 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'Wiki orwell' 
+-----------------------
+29-11-2018 17:08:16.24182[4][4] - Elapsed time: 0.023 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKI ORWELL' 
+-----------------------
+29-11-2018 17:08:16.24183[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'WIKI ORWELL' 
+-----------------------
+29-11-2018 17:08:16.24184[2][4] - Elapsed time: 0.010 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'WIKI ORWELL' to the front of the [input] array 
+-----------------------
+29-11-2018 17:08:16.24264[2][4] - Elapsed time: 0.800 milliseconds
+[intialise_conversation.php][load_bot_config][343]
+Loading config data for the current bot. 
+-----------------------
+29-11-2018 17:08:16.24267[3][4] - Elapsed time: 0.030 milliseconds
+[intialise_conversation.php][load_bot_config][352]
+load bot config SQL: SELECT * FROM `orxataso_mikubot`.`bots` WHERE bot_id = 1; 
+-----------------------
+29-11-2018 17:08:16.24300[4][4] - Elapsed time: 0.333 milliseconds
+[intialise_conversation.php][load_bot_config][357]
+Loading bot details from the database. 
+-----------------------
+29-11-2018 17:08:16.24304[0][4] - Elapsed time: 0.037 milliseconds
+[conversation_start.php][Called outside of function][227]
+Default debug level = 4 
+-----------------------
+29-11-2018 17:08:16.24305[0][4] - Elapsed time: 0.014 milliseconds
+[conversation_start.php][Called outside of function][229]
+Current debug level = 4 
+-----------------------
+29-11-2018 17:08:16.24306[0][4] - Elapsed time: 0.012 milliseconds
+[conversation_start.php][Called outside of function][242]
+Say = WIKI TEORÍA DE LAS CUERDAS: raw say = Wiki teoría de las cuerdas 
+-----------------------
+29-11-2018 17:08:16.24308[4][4] - Elapsed time: 0.014 milliseconds
+[intialise_conversation.php][add_new_conversation_vars][184]
+New conversation vars 
+-----------------------
+29-11-2018 17:08:16.24309[2][4] - Elapsed time: 0.013 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'WIKI TEORÍA DE LAS CUERDAS' to the front of the [user_say] array 
+-----------------------
+29-11-2018 17:08:16.24311[4][4] - Elapsed time: 0.018 milliseconds
+[intialise_conversation.php][load_blank_array_element][62]
+Loading blank user_say array 
+-----------------------
+29-11-2018 17:08:16.24313[0][4] - Elapsed time: 0.026 milliseconds
+[intialise_conversation.php][add_new_conversation_vars][188]
+User RAW = Wiki teoría de las cuerdas, RAW say = Wiki teoría de las cuerdas 
+-----------------------
+29-11-2018 17:08:16.24315[2][4] - Elapsed time: 0.013 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'Wiki teoría de las cuerdas' to the front of the [input] array 
+-----------------------
+29-11-2018 17:08:16.24317[4][4] - Elapsed time: 0.020 milliseconds
+[make_conversation.php][make_conversation][22]
+Making conversation 
+-----------------------
+29-11-2018 17:08:16.24318[4][4] - Elapsed time: 0.013 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'WIKI TEORÍA DE LAS CUERDAS' 
+-----------------------
+29-11-2018 17:08:16.24322[4][4] - Elapsed time: 0.035 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKI TEORÍA DE LAS CUERDAS' 
+-----------------------
+29-11-2018 17:08:16.24323[4][4] - Elapsed time: 0.015 milliseconds
+[find_aiml.php][get_aiml_to_parse][909]
+Running all functions to get the correct aiml from the DB 
+-----------------------
+29-11-2018 17:08:16.24362[4][4] - Elapsed time: 0.385 milliseconds
+[find_aiml.php][find_userdefined_aiml][821]
+Looking for user defined responses 
+-----------------------
+29-11-2018 17:08:16.24382[3][4] - Elapsed time: 0.203 milliseconds
+[find_aiml.php][find_userdefined_aiml][870]
+User defined SQL:
+SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `template` FROM `orxataso_mikubot`.`aiml_userdefined` WHERE
+    `bot_id` = 1 AND
+    `user_id` = 'miku-b'
+    AND (
+        'WIKI TEORÍA DE LAS CUERDAS' LIKE (REPLACE(REPLACE(`pattern`, '*', '%'), '_', '%'))
+        OR 'ERIC ARTHUR BLAIR MOTIHARI RAJ BRITÁNICO 25 DE JUNIO DE 1903 1 ​ 2 ​ LONDRES REINO UNIDO 21 DE ENERO DE 1950 MÁS CONOCIDO POR EL PSEUDÓNIMO DE GEORGE ORWELL FUE UN ESCRITOR Y PERIODISTA BRITÁNICO CUYA OBRA LLEVA LA MARCA DE LAS EXPERIENCIAS PERSONALES VIVIDAS POR EL AUTOR EN TRES ETAPAS DE SU VIDA SU POSICIÓN EN CONTRA DEL IMPERIALISMO BRITÁNICO QUE LO LLEVÓ AL COMPROMISO COMO REPRESENTANTE DE LAS FUERZAS DEL ORDEN COLONIAL EN BIRMANIA DURANTE SU JUVENTUD A FAVOR DEL SOCIALISMO DEMOCRÁTICO DESPUÉS DE HABER OBSERVADO Y SUFRIDO LAS CONDICIONES DE VIDA DE LAS CLASES SOCIALES DE LOS TRABAJADORES DE LONDRES Y PARÍS Y EN CONTRA DE LOS TOTALITARISMOS NAZI Y ESTALINISTA TRAS SU PARTICIPACIÓN EN LA GUERRA CIVIL ESPAÑOLA SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI GEORGE ORWELL' LIKE (REPLACE(REPLACE(`thatpattern`, '*', '%'), '_', '%')))
+   ORDER BY `id` ASC, `pattern` ASC, `thatpattern` ASC; 
+-----------------------
+29-11-2018 17:08:16.24420[2][4] - Elapsed time: 0.377 milliseconds
+[find_aiml.php][find_userdefined_aiml][896]
+User defined rows found: '0' 
+-----------------------
+29-11-2018 17:08:16.24423[4][4] - Elapsed time: 0.032 milliseconds
+[find_aiml.php][find_aiml_matches][975]
+Finding the aiml matches from the DB 
+-----------------------
+29-11-2018 17:08:16.24424[4][4] - Elapsed time: 0.014 milliseconds
+[find_aiml.php][find_aiml_matches][981]
+Bot ID = 1. Bot Parent ID = 1. 
+-----------------------
+29-11-2018 17:08:16.24461[4][4] - Elapsed time: 0.371 milliseconds
+[find_aiml.php][find_aiml_matches][992]
+Stored topic = '' 
+-----------------------
+29-11-2018 17:08:16.24481[3][4] - Elapsed time: 0.198 milliseconds
+[find_aiml.php][find_aiml_matches][1052]
+Core Match AIML sql:
+SELECT `id`, `bot_id`, `pattern`, `thatpattern`, `topic`, `filename`, `template` FROM `orxataso_mikubot`.`aiml` WHERE
+    bot_id = 1 AND (
+        'WIKI TEORÍA DE LAS CUERDAS' LIKE (REPLACE(REPLACE(`pattern`, '*', '%'), '_', '%'))
+        OR 'ERIC ARTHUR BLAIR MOTIHARI RAJ BRITÁNICO 25 DE JUNIO DE 1903 1 ​ 2 ​ LONDRES REINO UNIDO 21 DE ENERO DE 1950 MÁS CONOCIDO POR EL PSEUDÓNIMO DE GEORGE ORWELL FUE UN ESCRITOR Y PERIODISTA BRITÁNICO CUYA OBRA LLEVA LA MARCA DE LAS EXPERIENCIAS PERSONALES VIVIDAS POR EL AUTOR EN TRES ETAPAS DE SU VIDA SU POSICIÓN EN CONTRA DEL IMPERIALISMO BRITÁNICO QUE LO LLEVÓ AL COMPROMISO COMO REPRESENTANTE DE LAS FUERZAS DEL ORDEN COLONIAL EN BIRMANIA DURANTE SU JUVENTUD A FAVOR DEL SOCIALISMO DEMOCRÁTICO DESPUÉS DE HABER OBSERVADO Y SUFRIDO LAS CONDICIONES DE VIDA DE LAS CLASES SOCIALES DE LOS TRABAJADORES DE LONDRES Y PARÍS Y EN CONTRA DE LOS TOTALITARISMOS NAZI Y ESTALINISTA TRAS SU PARTICIPACIÓN EN LA GUERRA CIVIL ESPAÑOLA SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI GEORGE ORWELL' LIKE (REPLACE(REPLACE(`thatpattern`, '*', '%'), '_', '%'))
+        OR `pattern` LIKE 'RANDOM PICKUP LINE'
+    )
+    # ORDER BY `id` ASC, `topic` DESC, `pattern` ASC, `thatpattern` ASC; 
+-----------------------
+29-11-2018 17:08:16.24516[3][4] - Elapsed time: 0.352 milliseconds
+[find_aiml.php][find_aiml_matches][1054]
+Query Process time... 
+-----------------------
+29-11-2018 17:08:16.24520[2][4] - Elapsed time: 0.033 milliseconds
+[find_aiml.php][find_aiml_matches][1061]
+FOUND: (1) potential AIML matches 
+-----------------------
+29-11-2018 17:08:16.24582[1][4] - Elapsed time: 0.627 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][35]
+Current THAT = ERIC ARTHUR BLAIR MOTIHARI RAJ BRITÁNICO 25 DE JUNIO DE 1903 1 ​ 2 ​ LONDRES REINO UNIDO 21 DE ENERO DE 1950 MÁS CONOCIDO POR EL PSEUDÓNIMO DE GEORGE ORWELL FUE UN ESCRITOR Y PERIODISTA BRITÁNICO CUYA OBRA LLEVA LA MARCA DE LAS EXPERIENCIAS PERSONALES VIVIDAS POR EL AUTOR EN TRES ETAPAS DE SU VIDA SU POSICIÓN EN CONTRA DEL IMPERIALISMO BRITÁNICO QUE LO LLEVÓ AL COMPROMISO COMO REPRESENTANTE DE LAS FUERZAS DEL ORDEN COLONIAL EN BIRMANIA DURANTE SU JUVENTUD A FAVOR DEL SOCIALISMO DEMOCRÁTICO DESPUÉS DE HABER OBSERVADO Y SUFRIDO LAS CONDICIONES DE VIDA DE LAS CLASES SOCIALES DE LOS TRABAJADORES DE LONDRES Y PARÍS Y EN CONTRA DE LOS TOTALITARISMOS NAZI Y ESTALINISTA TRAS SU PARTICIPACIÓN EN LA GUERRA CIVIL ESPAÑOLA SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI GEORGE ORWELL 
+-----------------------
+29-11-2018 17:08:16.24587[4][4] - Elapsed time: 0.047 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][48]
+NEW FUNC Searching through 1 rows to unset bad matches 
+-----------------------
+29-11-2018 17:08:16.24588[4][4] - Elapsed time: 0.014 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][62]
+Blue 5 to Blue leader. Starting my run now! Looking for 'WIKI TEORÍA DE LAS CUERDAS' 
+-----------------------
+29-11-2018 17:08:16.24628[4][4] - Elapsed time: 0.392 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][195]
+Found 1 relevant rows 
+-----------------------
+29-11-2018 17:08:16.24630[4][4] - Elapsed time: 0.024 milliseconds
+[find_aiml.php][score_matches][255]
+Scoring the matches. 
+-----------------------
+29-11-2018 17:08:16.24710[4][4] - Elapsed time: 0.798 milliseconds
+[find_aiml.php][score_matches][548]
+Sorted array $allrows:
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [bot_id] => 1
+            [pattern] => WIKI *
+            [thatpattern] => 
+            [topic] => 
+            [filename] => wiki.aiml
+            [template] => <wiki>
+        <star/>
+      </wiki>
+            [score] => 254
+            [current_that] => eric arthur blair motihari raj británico 25 de junio de 1903 1 ​ 2 ​ londres reino unido 21 de enero de 1950 más conocido por el pseudónimo de george orwell fue un escritor y periodista británico cuya obra lleva la marca de las experiencias personales vividas por el autor en tres etapas de su vida su posición en contra del imperialismo británico que lo llevó al compromiso como representante de las fuerzas del orden colonial en birmania durante su juventud a favor del socialismo democrático después de haber observado y sufrido las condiciones de vida de las clases sociales de los trabajadores de londres y parís y en contra de los totalitarismos nazi y estalinista tras su participación en la guerra civil española si quieres leer más lo tienes todo aquí https es wikipedia org wiki george orwell
+            [aiml_id] => 1
+            [track_score] => current bot (250 points), no thatpattern to match (1 point), direct word match: wiki (2 points), star word match (1 points)
+        )
+
+)
+ 
+-----------------------
+29-11-2018 17:08:16.24716[2][4] - Elapsed time: 0.058 milliseconds
+[find_aiml.php][get_highest_scoring_row][642]
+Final candidates:
+
+Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [bot_id] => 1
+            [pattern] => WIKI *
+            [thatpattern] => 
+            [topic] => 
+            [filename] => wiki.aiml
+            [template] => <wiki>
+        <star/>
+      </wiki>
+            [score] => 254
+            [current_that] => eric arthur blair motihari raj británico 25 de junio de 1903 1 ​ 2 ​ londres reino unido 21 de enero de 1950 más conocido por el pseudónimo de george orwell fue un escritor y periodista británico cuya obra lleva la marca de las experiencias personales vividas por el autor en tres etapas de su vida su posición en contra del imperialismo británico que lo llevó al compromiso como representante de las fuerzas del orden colonial en birmania durante su juventud a favor del socialismo democrático después de haber observado y sufrido las condiciones de vida de las clases sociales de los trabajadores de londres y parís y en contra de los totalitarismos nazi y estalinista tras su participación en la guerra civil española si quieres leer más lo tienes todo aquí https es wikipedia org wiki george orwell
+            [aiml_id] => 1
+            [track_score] => current bot (250 points), no thatpattern to match (1 point), direct word match: wiki (2 points), star word match (1 points)
+        )
+
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.24745[4][4] - Elapsed time: 0.291 milliseconds
+[find_aiml.php][get_highest_scoring_row][697]
+Best Response: Array
+(
+    [id] => 1
+    [bot_id] => 1
+    [pattern] => WIKI *
+    [thatpattern] => 
+    [topic] => 
+    [filename] => wiki.aiml
+    [template] => <wiki>
+        <star/>
+      </wiki>
+    [score] => 254
+    [current_that] => eric arthur blair motihari raj británico 25 de junio de 1903 1 ​ 2 ​ londres reino unido 21 de enero de 1950 más conocido por el pseudónimo de george orwell fue un escritor y periodista británico cuya obra lleva la marca de las experiencias personales vividas por el autor en tres etapas de su vida su posición en contra del imperialismo británico que lo llevó al compromiso como representante de las fuerzas del orden colonial en birmania durante su juventud a favor del socialismo democrático después de haber observado y sufrido las condiciones de vida de las clases sociales de los trabajadores de londres y parís y en contra de los totalitarismos nazi y estalinista tras su participación en la guerra civil española si quieres leer más lo tienes todo aquí https es wikipedia org wiki george orwell
+    [aiml_id] => 1
+    [track_score] => current bot (250 points), no thatpattern to match (1 point), direct word match: wiki (2 points), star word match (1 points)
+)
+ 
+-----------------------
+29-11-2018 17:08:16.24746[2][4] - Elapsed time: 0.018 milliseconds
+[find_aiml.php][get_highest_scoring_row][698]
+No results found, so none to pick from. 
+-----------------------
+29-11-2018 17:08:16.24752[4][4] - Elapsed time: 0.053 milliseconds
+[find_aiml.php][get_aiml_to_parse][960]
+Will be parsing id:1 (WIKI *) 
+-----------------------
+29-11-2018 17:08:16.24753[3][4] - Elapsed time: 0.017 milliseconds
+[parse_aiml.php][parse_matched_aiml][213]
+Run the aiml parse in normal mode (normal or srai) 
+-----------------------
+29-11-2018 17:08:16.24755[2][4] - Elapsed time: 0.015 milliseconds
+[parse_aiml.php][set_wildcards][297]
+Setting Wildcards. Pattern = 'WIKI *' 
+-----------------------
+29-11-2018 17:08:16.24756[2][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][set_wildcards][306]
+We have pattern stars to process! 
+-----------------------
+29-11-2018 17:08:16.24758[2][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][set_wildcards][310]
+RegEx string = ~WIKI (.+)$~siuU: Searching Wiki teoría de las cuerdas for a match. 
+-----------------------
+29-11-2018 17:08:16.24766[2][4] - Elapsed time: 0.085 milliseconds
+[parse_aiml.php][set_wildcards][313]
+Array
+(
+    [0] => Array
+        (
+            [0] => Wiki teoría de las cuerdas
+        )
+
+    [1] => Array
+        (
+            [0] => teoría de las cuerdas
+        )
+
+)
+ 
+-----------------------
+29-11-2018 17:08:16.24768[2][4] - Elapsed time: 0.020 milliseconds
+[parse_aiml.php][set_wildcards][318]
+Adding 'teoría de las cuerdas' to the stars stack. 
+-----------------------
+29-11-2018 17:08:16.24770[2][4] - Elapsed time: 0.016 milliseconds
+[parse_aiml.php][set_wildcards][320]
+Star array = Array
+(
+    [1] => teoría de las cuerdas
+)
+ 
+-----------------------
+29-11-2018 17:08:16.24771[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][set_wildcards][329]
+Checking for wildcards in pattern-side THAT 
+-----------------------
+29-11-2018 17:08:16.24772[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][set_wildcards][361]
+Checking for wildcards in pattern-side TOPIC 
+-----------------------
+29-11-2018 17:08:16.24775[2][4] - Elapsed time: 0.030 milliseconds
+[parse_aiml.php][set_wildcards][394]
+AIML array now = Array
+(
+    [aiml_id] => 1
+    [category_id] => 1
+    [html_template] => 
+    [lookingfor] => WIKI TEORÍA DE LAS CUERDAS
+    [pattern] => WIKI *
+    [score] => 254
+    [stars] => Array
+        (
+            [1] => teoría de las cuerdas
+        )
+
+    [template] => <wiki>
+        <star/>
+      </wiki>
+    [thatpattern] => 
+    [that_stars] => Array
+        (
+            [1] => 
+        )
+
+    [topic] => 
+    [topic_stars] => Array
+        (
+        )
+
+    [user_raw] => Wiki teoría de las cuerdas
+)
+ 
+-----------------------
+29-11-2018 17:08:16.24777[2][4] - Elapsed time: 0.018 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+29-11-2018 17:08:16.24779[2][4] - Elapsed time: 0.015 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][93]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+29-11-2018 17:08:16.24785[4][4] - Elapsed time: 0.070 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][120]
+Returning template:
+<template><wiki><star/></wiki></template> 
+-----------------------
+29-11-2018 17:08:16.24802[2][4] - Elapsed time: 0.168 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][201]
+Recursively parsing the AIML template. 
+-----------------------
+29-11-2018 17:08:16.24812[4][4] - Elapsed time: 0.096 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][214]
+Processing element template at level 0. element XML = <?xml version="1.0"?>
+<template><wiki><star/></wiki></template>
+ 
+-----------------------
+29-11-2018 17:08:16.24814[4][4] - Elapsed time: 0.018 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][242]
+function parse_template_tag does not exist. Parsing tag as text. 
+-----------------------
+29-11-2018 17:08:16.24817[2][4] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][201]
+Recursively parsing the AIML template. 
+-----------------------
+29-11-2018 17:08:16.24821[4][4] - Elapsed time: 0.034 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][214]
+Processing element wiki at level 1. element XML = <wiki><star/></wiki> 
+-----------------------
+29-11-2018 17:08:16.24822[4][4] - Elapsed time: 0.015 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][225]
+Function parse_wiki_tag does exist. Processing now. 
+-----------------------
+29-11-2018 17:08:16.24823[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][229]
+Passing element wiki to the parse_wiki_tag function 
+-----------------------
+29-11-2018 17:08:16.24825[2][4] - Elapsed time: 0.016 milliseconds
+[custom_tags.php][parse_wiki_tag][172]
+Parsing custom WIKI tag. 
+-----------------------
+29-11-2018 17:08:16.24826[2][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][201]
+Recursively parsing the AIML template. 
+-----------------------
+29-11-2018 17:08:16.24829[4][4] - Elapsed time: 0.026 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][214]
+Processing element star at level 2. element XML = <star/> 
+-----------------------
+29-11-2018 17:08:16.24830[4][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][225]
+Function parse_star_tag does exist. Processing now. 
+-----------------------
+29-11-2018 17:08:16.24832[4][4] - Elapsed time: 0.019 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][229]
+Passing element star to the parse_star_tag function 
+-----------------------
+29-11-2018 17:08:16.24834[2][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][297]
+Parsing a STAR tag. 
+-----------------------
+29-11-2018 17:08:16.24835[4][4] - Elapsed time: 0.016 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][299]
+parse_star_tag called from the star tag at level 2. element = <star/> 
+-----------------------
+29-11-2018 17:08:16.24840[4][4] - Elapsed time: 0.050 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][309]
+Current AIML Array:
+Array
+(
+    [user_raw] => Wiki teoría de las cuerdas
+    [lookingfor] => WIKI TEORÍA DE LAS CUERDAS
+    [category_id] => 1
+    [pattern] => WIKI *
+    [thatpattern] => 
+    [template] => <wiki>
+        <star/>
+      </wiki>
+    [html_template] => 
+    [topic] => 
+    [score] => 254
+    [aiml_id] => 1
+    [stars] => Array
+        (
+            [1] => teoría de las cuerdas
+        )
+
+    [that_stars] => Array
+        (
+            [1] => 
+        )
+
+    [topic_stars] => Array
+        (
+        )
+
+)
+ 
+-----------------------
+29-11-2018 17:08:16.24842[4][4] - Elapsed time: 0.015 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][310]
+star index = 1. 
+-----------------------
+29-11-2018 17:08:16.24843[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][314]
+Adding 'teoría de las cuerdas' to the response array. 
+-----------------------
+29-11-2018 17:08:16.24844[4][4] - Elapsed time: 0.011 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][316]
+Index value = 1, star value = teoría de las cuerdas 
+-----------------------
+29-11-2018 17:08:16.24845[2][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.24847[2][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => teoría de las cuerdas
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.24848[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.24849[4][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'teoría de las cuerdas' 
+-----------------------
+29-11-2018 17:08:16.24851[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][234]
+Adding 'teoría de las cuerdas' to the response array. tag name is star 
+-----------------------
+29-11-2018 17:08:16.24852[2][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.24853[2][4] - Elapsed time: 0.014 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => teoría de las cuerdas
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.24854[4][4] - Elapsed time: 0.011 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.24856[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'teoría de las cuerdas' 
+-----------------------
+29-11-2018 17:08:16.69382[4][4] - Elapsed time: 445.266 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][234]
+Adding 'La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».[1]​ Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Teor%C3%ADa_de_cuerdas' to the response array. tag name is wiki 
+-----------------------
+29-11-2018 17:08:16.69394[2][4] - Elapsed time: 0.120 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.69398[2][4] - Elapsed time: 0.035 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».[1]​ Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Teor%C3%ADa_de_cuerdas
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.69400[4][4] - Elapsed time: 0.018 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.69402[4][4] - Elapsed time: 0.022 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».[1]​ Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Teor%C3%ADa_de_cuerdas' 
+-----------------------
+29-11-2018 17:08:16.69404[4][4] - Elapsed time: 0.018 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][262]
+Adding 'La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».[1]​ Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Teor%C3%ADa_de_cuerdas' to the response array. tag name is template. 
+-----------------------
+29-11-2018 17:08:16.69406[2][4] - Elapsed time: 0.023 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][137]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+29-11-2018 17:08:16.69408[2][4] - Elapsed time: 0.017 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][138]
+Input: Array
+(
+    [0] => La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».[1]​ Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Teor%C3%ADa_de_cuerdas
+)
+
+ 
+-----------------------
+29-11-2018 17:08:16.69409[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][155]
+The variable $input is of type array 
+-----------------------
+29-11-2018 17:08:16.69410[4][4] - Elapsed time: 0.015 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][185]
+Imploding complete. Returning 'La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».[1]​ Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Teor%C3%ADa_de_cuerdas' 
+-----------------------
+29-11-2018 17:08:16.69413[4][4] - Elapsed time: 0.023 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][47]
+Completed parsing the template. The bot will say: La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».[1]​ Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Teor%C3%ADa_de_cuerdas 
+-----------------------
+29-11-2018 17:08:16.69415[4][4] - Elapsed time: 0.019 milliseconds
+[parse_aiml.php][parse_matched_aiml][227]
+normal - Saving for next turn 
+-----------------------
+29-11-2018 17:08:16.69416[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][save_for_nextturn][271]
+Saving that and that_raw for next turn 
+-----------------------
+29-11-2018 17:08:16.69417[2][4] - Elapsed time: 0.015 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».[1]​ Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Teor%C3%ADa_de_cuerdas' to the front of the [that_raw] array 
+-----------------------
+29-11-2018 17:08:16.69421[4][4] - Elapsed time: 0.032 milliseconds
+[intialise_conversation.php][load_blank_array_element][62]
+Loading blank that_raw array 
+-----------------------
+29-11-2018 17:08:16.69428[2][4] - Elapsed time: 0.073 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».[1]​ Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Teor%C3%ADa_de_cuerdas' to the front of the [that] array 
+-----------------------
+29-11-2018 17:08:16.69431[4][4] - Elapsed time: 0.035 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».' 
+-----------------------
+29-11-2018 17:08:16.69433[4][4] - Elapsed time: 0.021 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».' 
+-----------------------
+29-11-2018 17:08:16.69451[4][4] - Elapsed time: 0.175 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'LA TEORÍA DE CUERDAS ES UN MODELO FUNDAMENTAL DE FÍSICA TEÓRICA QUE BÁSICAMENTE ASUME QUE LAS PARTÍCULAS MATERIALES APARENTEMENTE PUNTUALES SON EN REALIDAD ESTADOS VIBRACIONALES DE UN OBJETO EXTENDIDO MÁS BÁSICO LLAMADO CUERDA O FILAMENTO' 
+-----------------------
+29-11-2018 17:08:16.69453[4][4] - Elapsed time: 0.018 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'LA TEORÍA DE CUERDAS ES UN MODELO FUNDAMENTAL DE FÍSICA TEÓRICA QUE BÁSICAMENTE ASUME QUE LAS PARTÍCULAS MATERIALES APARENTEMENTE PUNTUALES SON EN REALIDAD ESTADOS VIBRACIONALES DE UN OBJETO EXTENDIDO MÁS BÁSICO LLAMADO CUERDA O FILAMENTO' 
+-----------------------
+29-11-2018 17:08:16.69454[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: '[1]​ Si quieres leer más lo tienes todo aquí https://es.' 
+-----------------------
+29-11-2018 17:08:16.69456[4][4] - Elapsed time: 0.015 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = '[1]​ Si quieres leer más lo tienes todo aquí https://es.' 
+-----------------------
+29-11-2018 17:08:16.69461[4][4] - Elapsed time: 0.052 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = '1 ​ SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES' 
+-----------------------
+29-11-2018 17:08:16.69462[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = '1 ​ SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES' 
+-----------------------
+29-11-2018 17:08:16.69463[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'wikipedia.' 
+-----------------------
+29-11-2018 17:08:16.69465[4][4] - Elapsed time: 0.012 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'wikipedia.' 
+-----------------------
+29-11-2018 17:08:16.69467[4][4] - Elapsed time: 0.026 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'WIKIPEDIA' 
+-----------------------
+29-11-2018 17:08:16.69468[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'WIKIPEDIA' 
+-----------------------
+29-11-2018 17:08:16.69470[4][4] - Elapsed time: 0.013 milliseconds
+[parse_aiml.php][clean_that][251]
+Cleaning up the ~THAT~ tag: 'org/wiki/Teor%C3%ADa_de_cuerdas' 
+-----------------------
+29-11-2018 17:08:16.69471[4][4] - Elapsed time: 0.012 milliseconds
+[misc_functions.php][normalize_text][125]
+Begin normalization - text = 'org/wiki/Teor%C3%ADa_de_cuerdas' 
+-----------------------
+29-11-2018 17:08:16.69474[4][4] - Elapsed time: 0.034 milliseconds
+[misc_functions.php][normalize_text][150]
+Normalization complete. Text = 'ORG WIKI TEOR C3 ADA DE CUERDAS' 
+-----------------------
+29-11-2018 17:08:16.69476[4][4] - Elapsed time: 0.012 milliseconds
+[parse_aiml.php][clean_that][258]
+Cleaning Complete. output = 'ORG WIKI TEOR C3 ADA DE CUERDAS' 
+-----------------------
+29-11-2018 17:08:16.69478[2][4] - Elapsed time: 0.028 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing 'La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».[1]​ Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Teor%C3%ADa_de_cuerdas' to the front of the [parsed_template] array 
+-----------------------
+29-11-2018 17:08:16.69480[4][4] - Elapsed time: 0.020 milliseconds
+[intialise_conversation.php][load_blank_array_element][62]
+Loading blank parsed_template array 
+-----------------------
+29-11-2018 17:08:16.69483[2][4] - Elapsed time: 0.024 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][226]
+Pushing '<wiki>
+        <star/>
+      </wiki>' to the front of the [template] array 
+-----------------------
+29-11-2018 17:08:16.69484[4][4] - Elapsed time: 0.017 milliseconds
+[intialise_conversation.php][load_blank_array_element][62]
+Loading blank template array 
+-----------------------
+29-11-2018 17:08:16.69489[2][4] - Elapsed time: 0.042 milliseconds
+[intialise_conversation.php][log_conversation][403]
+Saving the conversation to the DB. 
+-----------------------
+29-11-2018 17:08:16.69493[3][4] - Elapsed time: 0.044 milliseconds
+[intialise_conversation.php][log_conversation][442]
+Saving conservation SQL: INSERT INTO `orxataso_mikubot`.`conversation_log` (
+      `id` ,
+      `input` ,
+      `response` ,
+      `user_id` ,
+      `convo_id` ,
+      `bot_id` ,
+      `timestamp`
+    )
+    VALUES (
+      NULL ,
+      'Wiki teoría de las cuerdas',
+      'La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».[1]​ Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Teor%C3%ADa_de_cuerdas',
+      2,
+      'miku-b',
+      1,
+      CURRENT_TIMESTAMP
+    ) 
+-----------------------
+29-11-2018 17:08:16.69700[4][4] - Elapsed time: 2.069 milliseconds
+[intialise_conversation.php][write_to_session][140]
+Saving to session 
+-----------------------
+29-11-2018 17:08:16.69734[3][4] - Elapsed time: 0.345 milliseconds
+[display_conversation.php][get_conversation_to_display][59]
+get_conversation SQL: SELECT * FROM `orxataso_mikubot`.`conversation_log` WHERE
+        `user_id` = :user_id
+        AND `bot_id` = :bot_id
+        AND `convo_id` = :convo_id
+        ORDER BY id DESC  LIMIT 1 
+-----------------------
+29-11-2018 17:08:16.69775[2][4] - Elapsed time: 0.408 milliseconds
+[display_conversation.php][get_conversation_to_display][77]
+Found '1' lines of conversation 
+-----------------------
+29-11-2018 17:08:16.69779[4][4] - Elapsed time: 0.038 milliseconds
+[display_conversation.php][get_conversation][92]
+Processing conversation as json 
+-----------------------
+29-11-2018 17:08:16.69781[2][4] - Elapsed time: 0.017 milliseconds
+[display_conversation.php][get_json][150]
+Outputting response as JSON 
+-----------------------
+29-11-2018 17:08:16.69789[4][4] - Elapsed time: 0.079 milliseconds
+[display_conversation.php][get_json][164]
+Returning JSON string: {"convo_id":"miku-b","usersay":"Wiki teor\u00eda de las cuerdas","botsay":"La teor\u00eda de cuerdas es un modelo fundamental de f\u00edsica te\u00f3rica que b\u00e1sicamente asume que las part\u00edculas materiales, aparentemente puntuales son en realidad \u00abestados vibracionales\u00bb de un objeto extendido m\u00e1s b\u00e1sico llamado \u00abcuerda\u00bb o \u00abfilamento\u00bb.[1]\u200b Si quieres leer m\u00e1s lo tienes todo aqu\u00ed https:\/\/es.wikipedia.org\/wiki\/Teor%C3%ADa_de_cuerdas","botData":{"convo_id":"miku-b","bot_name":"Miku","bot_id":"1","format":"json","unknown_user":"Seeker","user_name":"Seeker","user_id":"2","totallines":1,"rawSay":"Wiki teor\u00eda de las cuerdas","conversation_lines":"1","remember_up_to":"10","debugemail":"manel.andreu.code@gmail.com","debug_level":"4","debugmode":1,"save_state":"session","default_aiml_pattern":"RANDOM PICKUP LINE","bot_parent_id":"1","aimlData":{"id":"1","bot_id":"1","pattern":"WIKI *","thatpattern":"","topic":"","filename":"wiki.aiml","template":"<wiki>\n        <star\/>\n      <\/wiki>","score":254,"current_that":"eric arthur blair motihari raj brit\u00e1nico 25 de junio de 1903 1 \u200b 2 \u200b londres reino unido 21 de enero de 1950 m\u00e1s conocido por el pseud\u00f3nimo de george orwell fue un escritor y periodista brit\u00e1nico cuya obra lleva la marca de las experiencias personales vividas por el autor en tres etapas de su vida su posici\u00f3n en contra del imperialismo brit\u00e1nico que lo llev\u00f3 al compromiso como representante de las fuerzas del orden colonial en birmania durante su juventud a favor del socialismo democr\u00e1tico despu\u00e9s de haber observado y sufrido las condiciones de vida de las clases sociales de los trabajadores de londres y par\u00eds y en contra de los totalitarismos nazi y estalinista tras su participaci\u00f3n en la guerra civil espa\u00f1ola si quieres leer m\u00e1s lo tienes todo aqu\u00ed https es wikipedia org wiki george orwell","aiml_id":"1","track_score":"current bot (250 points), no thatpattern to match (1 point), direct word match: wiki (2 points), star word match (1 points)"}}} 
+-----------------------
+29-11-2018 17:08:16.69835[2][4] - Elapsed time: 0.469 milliseconds
+[conversation_start.php][Called outside of function][267]
+Closing Database 
+-----------------------
+29-11-2018 17:08:16.69853[0][4] - Elapsed time: 0.180 milliseconds
+[conversation_start.php][Called outside of function][273]
+Conversation Ending. Elapsed time: 491.582 milliseconds. 
+-----------------------
+Debug Level: 4
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [say] => Wiki teoría de las cuerdas
+    [conversation] => Array
+        (
+            [convo_id] => miku-b
+            [bot_name] => Miku
+            [bot_id] => 1
+            [format] => json
+            [unknown_user] => Seeker
+            [user_name] => Seeker
+            [user_id] => 2
+            [totallines] => 1
+            [rawSay] => Wiki teoría de las cuerdas
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => manel.andreu.code@gmail.com
+            [debug_level] => 4
+            [debugmode] => 1
+            [save_state] => session
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+            [aimlData] => Array
+                (
+                    [id] => 1
+                    [bot_id] => 1
+                    [pattern] => WIKI *
+                    [thatpattern] => 
+                    [topic] => 
+                    [filename] => wiki.aiml
+                    [template] => <wiki>
+        <star/>
+      </wiki>
+                    [score] => 254
+                    [current_that] => eric arthur blair motihari raj británico 25 de junio de 1903 1 ​ 2 ​ londres reino unido 21 de enero de 1950 más conocido por el pseudónimo de george orwell fue un escritor y periodista británico cuya obra lleva la marca de las experiencias personales vividas por el autor en tres etapas de su vida su posición en contra del imperialismo británico que lo llevó al compromiso como representante de las fuerzas del orden colonial en birmania durante su juventud a favor del socialismo democrático después de haber observado y sufrido las condiciones de vida de las clases sociales de los trabajadores de londres y parís y en contra de los totalitarismos nazi y estalinista tras su participación en la guerra civil española si quieres leer más lo tienes todo aquí https es wikipedia org wiki george orwell
+                    [aiml_id] => 1
+                    [track_score] => current bot (250 points), no thatpattern to match (1 point), direct word match: wiki (2 points), star word match (1 points)
+                )
+
+        )
+
+    [aiml] => Array
+        (
+            [user_raw] => Wiki teoría de las cuerdas
+            [lookingfor] => WIKI TEORÍA DE LAS CUERDAS
+            [category_id] => 1
+            [pattern] => WIKI *
+            [thatpattern] => 
+            [template] => <wiki>
+        <star/>
+      </wiki>
+            [html_template] => 
+            [topic] => 
+            [score] => 254
+            [aiml_id] => 1
+            [stars] => Array
+                (
+                    [1] => teoría de las cuerdas
+                )
+
+            [that_stars] => Array
+                (
+                    [1] => 
+                )
+
+            [topic_stars] => Array
+                (
+                )
+
+            [parsed_template] => La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».[1]​ Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Teor%C3%ADa_de_cuerdas
+        )
+
+    [bot_properties] => Array
+        (
+            [name] => Miku
+            [gender] => Mujer
+            [botmaster] => koshiji-sama
+            [master] => koshiji-sama
+            [age] => 30
+            [website] => 
+            [email] => 
+            [birthday] => 13/01
+            [birthplace] => Japón
+            [size] => 1,50 metros
+            [version] => 0.01
+            [build] => 1
+            [language] => Español
+            [feelings] => Yandere
+            [etype] => 
+            [emotions] => 
+            [ethics] => 
+            [orientation] => Bisexual
+            [baseballteam] => 
+            [footballteam] => 
+            [hockeyteam] => 
+            [favoritesport] => 
+            [vocabulary] => 
+            [celebrities] => 
+            [celebrity] => 
+            [favoriteactor] => 
+            [favoriteactress] => 
+            [favoriteartist] => 
+            [favoritemusician] => 
+            [favoritesong] => 
+            [favoriteauthor] => 
+            [friend] => 
+            [nationality] => 
+            [religion] => 
+            [president] => 
+            [party] => 
+            [kingdom] => 
+            [phylum] => 
+            [class] => 
+            [order] => 
+            [family] => 
+            [genus] => 
+            [species] => 
+            [boyfriend] => 
+            [favoritebook] => 
+            [favoriteband] => 
+            [favoritecolor] => 
+            [favoritefood] => 
+            [favoritemovie] => 
+            [forfun] => 
+            [friends] => 
+            [girlfriend] => 
+            [kindmusic] => 
+            [location] => 
+            [looklike] => 
+            [question] => 
+            [sign] => 
+            [talkabout] => 
+            [wear] => 
+            [loves] => 
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => 67.222.39.77
+            [name] => Seeker
+        )
+
+    [raw_that] => Array
+        (
+            [1] => Array
+                (
+                    [0] => Eric Arthur Blair (Motihari, Raj Británico, 25 de junio de 1903[1]​[2]​-Londres, Reino Unido, 21 de enero de 1950), más conocido por el pseudónimo de George Orwell, fue un escritor y periodista británico, cuya obra lleva la marca de las experiencias personales vividas por el autor en tres etapas de su vida: su posición en contra del imperialismo británico que lo llevó al compromiso como representante de las fuerzas del orden colonial en Birmania durante su juventud; a favor del socialismo democrático, después de haber observado y sufrido las condiciones de vida de las clases sociales de los trabajadores de Londres y París; y en contra de los totalitarismos nazi y estalinista tras su participación en la Guerra Civil Española
+                    [1] =>  Si quieres leer más lo tienes todo aquí https://es
+                    [2] => wikipedia
+                    [3] => org/wiki/George_Orwell
+                )
+
+            [2] => Array
+                (
+                    [0] => No AIML category found
+                    [1] =>  This is a Default Response
+                    [2] => 
+                )
+
+            [3] => Array
+                (
+                    [0] => La batería de polímero de iones de litio, de ion de litio polímero o más comúnmente batería de polímero de litio (abreviadamente Li-poli, Li-Pol, LiPo, LIP, PLI o LiP) son pilas recargables (células de secundaria), compuestas generalmente de varias células secundarias idénticas en paralelo para aumentar la capacidad de la corriente de descarga, y están a menudo disponibles en serie de "packs" para aumentar el voltaje total disponible
+                    [1] =>  Si quieres leer más lo tienes todo aquí https://es
+                    [2] => wikipedia
+                    [3] => org/wiki/Bater%C3%ADa_de_pol%C3%ADmero_de_litio
+                )
+
+            [4] => Array
+                (
+                    [0] => Wikipedia returned no results!
+                )
+
+            [5] => Array
+                (
+                    [0] => El término «hola» se puede referir a: Si quieres leer más lo tienes todo aquí https://es
+                    [1] => wikipedia
+                    [2] => org/wiki/Hola
+                )
+
+            [6] => Array
+                (
+                    [0] => Prueba hace referencia a varios artículos: Si quieres leer más lo tienes todo aquí https://es
+                    [1] => wikipedia
+                    [2] => org/wiki/Prueba
+                )
+
+            [7] => Array
+                (
+                    [0] => 
+                )
+
+            [8] => Array
+                (
+                    [0] => Anonymous [əˈnɒnɪməs] (anónimo o anónimos en español) es un seudónimo utilizado mundialmente por diferentes grupos e individuos para realizar en su nombre —poniéndose de acuerdo con otros— acciones o publicaciones individuales o concertadas
+                    [1] =>  Si quieres leer más lo tienes todo aquí https://es
+                    [2] => wikipedia
+                    [3] => org/wiki/Anonymous
+                )
+
+            [9] => Array
+                (
+                    [0] => WikiLeaks (del inglés leak, «fuga», «goteo», «filtración [de información]») es una organización mediática internacional sin ánimo de lucro, que publica a través de su sitio web informes anónimos y documentos filtrados con contenido sensible en materia de interés público, preservando el anonimato de sus fuentes
+                    [1] => [2]​ El lanzamiento del sitio se realizó en diciembre de 2006, si bien su actividad comenzó en julio de 2007-2008
+                    [2] =>  Desde entonces su base de datos ha crecido constantemente hasta acumular 1,2 millones de documentos
+                    [3] => [3]​ Su creador es Julian Assange y está gestionado por The Sunshine Press
+                    [4] => [4]​ Si quieres leer más lo tienes todo aquí https://es
+                    [5] => wikipedia
+                    [6] => org/wiki/WikiLeaks
+                )
+
+            [10] => Array
+                (
+                    [0] => <a href="https://es
+                    [1] => wikipedia
+                    [2] => org/wiki/Ali_G" target="_blank">Ali G</a><br/>
+<img src="https://upload
+                    [3] => wikimedia
+                    [4] => org/wikipedia/commons/thumb/d/d8/AliG-Harv
+                    [5] => jpg/26px-AliG-Harv
+                    [6] => jpg" width="26" height="50"/><br/>
+Ali G es un personaje ficticio satírico inventado por el comediante Sacha Baron Cohen para reírse de la sociedad
+                    [7] => 
+                )
+
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => ORG WIKI TEOR C3 ADA DE CUERDAS
+                    [2] => WIKIPEDIA
+                    [3] => 1 ​ SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES
+                    [4] => LA TEORÍA DE CUERDAS ES UN MODELO FUNDAMENTAL DE FÍSICA TEÓRICA QUE BÁSICAMENTE ASUME QUE LAS PARTÍCULAS MATERIALES APARENTEMENTE PUNTUALES SON EN REALIDAD ESTADOS VIBRACIONALES DE UN OBJETO EXTENDIDO MÁS BÁSICO LLAMADO CUERDA O FILAMENTO
+                )
+
+            [2] => Array
+                (
+                    [1] => ERIC ARTHUR BLAIR MOTIHARI RAJ BRITÁNICO 25 DE JUNIO DE 1903 1 ​ 2 ​ LONDRES REINO UNIDO 21 DE ENERO DE 1950 MÁS CONOCIDO POR EL PSEUDÓNIMO DE GEORGE ORWELL FUE UN ESCRITOR Y PERIODISTA BRITÁNICO CUYA OBRA LLEVA LA MARCA DE LAS EXPERIENCIAS PERSONALES VIVIDAS POR EL AUTOR EN TRES ETAPAS DE SU VIDA SU POSICIÓN EN CONTRA DEL IMPERIALISMO BRITÁNICO QUE LO LLEVÓ AL COMPROMISO COMO REPRESENTANTE DE LAS FUERZAS DEL ORDEN COLONIAL EN BIRMANIA DURANTE SU JUVENTUD A FAVOR DEL SOCIALISMO DEMOCRÁTICO DESPUÉS DE HABER OBSERVADO Y SUFRIDO LAS CONDICIONES DE VIDA DE LAS CLASES SOCIALES DE LOS TRABAJADORES DE LONDRES Y PARÍS Y EN CONTRA DE LOS TOTALITARISMOS NAZI Y ESTALINISTA TRAS SU PARTICIPACIÓN EN LA GUERRA CIVIL ESPAÑOLA SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI GEORGE ORWELL
+                )
+
+            [3] => Array
+                (
+                    [1] => NO AIML CATEGORY FOUND THIS IS A DEFAULT RESPONSE
+                )
+
+            [4] => Array
+                (
+                    [1] => LA BATERÍA DE POLÍMERO DE IONES DE LITIO DE ION DE LITIO POLÍMERO O MÁS COMÚNMENTE BATERÍA DE POLÍMERO DE LITIO ABREVIADAMENTE LI POLI LI POL LIPO LIP PLI O LIP SON PILAS RECARGABLES CÉLULAS DE SECUNDARIA COMPUESTAS GENERALMENTE DE VARIAS CÉLULAS SECUNDARIAS IDÉNTICAS EN PARALELO PARA AUMENTAR LA CAPACIDAD DE LA CORRIENTE DE DESCARGA Y ESTÁN A MENUDO DISPONIBLES EN SERIE DE PACKS PARA AUMENTAR EL VOLTAJE TOTAL DISPONIBLE SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI BATER C3 ADA DE POL C3 ADMERO DE LITIO
+                )
+
+            [5] => Array
+                (
+                    [1] => WIKIPEDIA RETURNED NO RESULTS
+                )
+
+            [6] => Array
+                (
+                    [1] => EL TÉRMINO HOLA SE PUEDE REFERIR A SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI HOLA
+                )
+
+            [7] => Array
+                (
+                    [1] => PRUEBA HACE REFERENCIA A VARIOS ARTÍCULOS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI PRUEBA
+                )
+
+            [8] => Array
+                (
+                    [1] => 
+                )
+
+            [9] => Array
+                (
+                    [1] => ANONYMOUS ƏˈNⱰNɪMƏS ANÓNIMO O ANÓNIMOS EN ESPAÑOL ES UN SEUDÓNIMO UTILIZADO MUNDIALMENTE POR DIFERENTES GRUPOS E INDIVIDUOS PARA REALIZAR EN SU NOMBRE PONIÉNDOSE DE ACUERDO CON OTROS ACCIONES O PUBLICACIONES INDIVIDUALES O CONCERTADAS SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI ANONYMOUS
+                )
+
+            [10] => Array
+                (
+                    [1] => WIKILEAKS DEL INGLÉS LEAK FUGA GOTEO FILTRACIÓN DE INFORMACIÓN ES UNA ORGANIZACIÓN MEDIÁTICA INTERNACIONAL SIN ÁNIMO DE LUCRO QUE PUBLICA A TRAVÉS DE SU SITIO WEB INFORMES ANÓNIMOS Y DOCUMENTOS FILTRADOS CON CONTENIDO SENSIBLE EN MATERIA DE INTERÉS PÚBLICO PRESERVANDO EL ANONIMATO DE SUS FUENTES 2 ​ EL LANZAMIENTO DEL SITIO SE REALIZÓ EN DICIEMBRE DE 2006 SI BIEN SU ACTIVIDAD COMENZÓ EN JULIO DE 2007 MINUS 2008 DESDE ENTONCES SU BASE DE DATOS HA CRECIDO CONSTANTEMENTE HASTA ACUMULAR 1 2 MILLONES DE DOCUMENTOS 3 ​ SU CREADOR ES JULIAN ASSANGE Y ESTÁ GESTIONADO POR THE SUNSHINE PRESS 4 ​ SI QUIERES LEER MÁS LO TIENES TODO AQUÍ HTTPS ES WIKIPEDIA ORG WIKI WIKILEAKS
+                )
+
+            [12] => 
+        )
+
+    [input] => Array
+        (
+            [1] => Wiki teoría de las cuerdas
+            [2] => WIKI ORWELL
+            [3] => START
+            [4] => WIKI BATERÍAS DE POLÍMERO DE LITIO
+            [5] => WIKI HOLA HOLITA
+            [6] => WIKI HOLA
+            [7] => WIKI PRUEBAS
+            [8] => WIKI PRUEBA
+            [9] => WIKI ANONYMOUS
+            [10] => WIKI WIKILEAKS
+        )
+
+    [time_start] => 1543511296.2068
+    [user_say] => Array
+        (
+            [1] => WIKI TEORÍA DE LAS CUERDAS
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => org/wiki/Teor%C3%ADa_de_cuerdas
+                    [3] => wikipedia.
+                    [4] => [1]​ Si quieres leer más lo tienes todo aquí https://es.
+                    [5] => La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».
+                )
+
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [12] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => La teoría de cuerdas es un modelo fundamental de física teórica que básicamente asume que las partículas materiales, aparentemente puntuales son en realidad «estados vibracionales» de un objeto extendido más básico llamado «cuerda» o «filamento».[1]​ Si quieres leer más lo tienes todo aquí https://es.wikipedia.org/wiki/Teor%C3%ADa_de_cuerdas
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [template] => Array
+        (
+            [1] => <wiki> <star/> </wiki>
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+        )
+
+    [send_to_user] => {"convo_id":"miku-b","usersay":"Wiki teor\u00eda de las cuerdas","botsay":"La teor\u00eda de cuerdas es un modelo fundamental de f\u00edsica te\u00f3rica que b\u00e1sicamente asume que las part\u00edculas materiales, aparentemente puntuales son en realidad \u00abestados vibracionales\u00bb de un objeto extendido m\u00e1s b\u00e1sico llamado \u00abcuerda\u00bb o \u00abfilamento\u00bb.[1]\u200b Si quieres leer m\u00e1s lo tienes todo aqu\u00ed https:\/\/es.wikipedia.org\/wiki\/Teor%C3%ADa_de_cuerdas","botData":{"convo_id":"miku-b","bot_name":"Miku","bot_id":"1","format":"json","unknown_user":"Seeker","user_name":"Seeker","user_id":"2","totallines":1,"rawSay":"Wiki teor\u00eda de las cuerdas","conversation_lines":"1","remember_up_to":"10","debugemail":"manel.andreu.code@gmail.com","debug_level":"4","debugmode":1,"save_state":"session","default_aiml_pattern":"RANDOM PICKUP LINE","bot_parent_id":"1","aimlData":{"id":"1","bot_id":"1","pattern":"WIKI *","thatpattern":"","topic":"","filename":"wiki.aiml","template":"<wiki>\n        <star\/>\n      <\/wiki>","score":254,"current_that":"eric arthur blair motihari raj brit\u00e1nico 25 de junio de 1903 1 \u200b 2 \u200b londres reino unido 21 de enero de 1950 m\u00e1s conocido por el pseud\u00f3nimo de george orwell fue un escritor y periodista brit\u00e1nico cuya obra lleva la marca de las experiencias personales vividas por el autor en tres etapas de su vida su posici\u00f3n en contra del imperialismo brit\u00e1nico que lo llev\u00f3 al compromiso como representante de las fuerzas del orden colonial en birmania durante su juventud a favor del socialismo democr\u00e1tico despu\u00e9s de haber observado y sufrido las condiciones de vida de las clases sociales de los trabajadores de londres y par\u00eds y en contra de los totalitarismos nazi y estalinista tras su participaci\u00f3n en la guerra civil espa\u00f1ola si quieres leer m\u00e1s lo tienes todo aqu\u00ed https es wikipedia org wiki george orwell","aiml_id":"1","track_score":"current bot (250 points), no thatpattern to match (1 point), direct word match: wiki (2 points), star word match (1 points)"}}}
+)
+
+-----------------------
+Total execution time: 491.582 Milliseconds. Goodbye.
