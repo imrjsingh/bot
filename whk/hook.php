@@ -4,11 +4,11 @@
  * Telegram bot works with Program O
  * Tutorial Link: https://www.lifeofgeek.com/fully-responsive-telegram-bot-php-tutorial/
  */
-define('BOT_TOKEN', '715593089:AAEV1-91J1OWsAvInUF3eE0wBykL-qXWLns'); //Replace with your bot token
+define('BOT_TOKEN', '851248141:AAFqQnQKg1s4ptae6b8fHaIKnXUXt0AlR3Q'); //Replace with your bot token
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 // Program O Params
 $bot_id = '1';					//Program O bot ID
-$siteurl = 'https://bot.orxatasoftware.com/Program-O'; 	// Site url including https where program o installed
+$siteurl = 'https://chat.shopkro.xyz'; 	// Site url including https where program o installed
 $convo_id = 'miku-b'; 				//Any string to save conversation log
 	
 // read incoming info and grab the chatID
